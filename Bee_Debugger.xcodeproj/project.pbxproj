@@ -21,6 +21,295 @@
 		5DAB4CDA171D44D500886859 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DAB4CBB171D44D400886859 /* Foundation.framework */; };
 		5DAB4CE2171D44D500886859 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5DAB4CE0171D44D500886859 /* InfoPlist.strings */; };
 		5DAB4CE5171D44D500886859 /* Bee_DebuggerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4CE4171D44D500886859 /* Bee_DebuggerTests.m */; };
+		5DAB4CEF171D45E200886859 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DAB4CEE171D45E200886859 /* CoreVideo.framework */; };
+		5DAB4CF1171D45E900886859 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DAB4CF0171D45E900886859 /* CoreMedia.framework */; };
+		5DAB4CF3171D45ED00886859 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DAB4CF2171D45ED00886859 /* Security.framework */; };
+		5DAB4CF5171D45F200886859 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DAB4CF4171D45F200886859 /* MobileCoreServices.framework */; };
+		5DAB4CF7171D45F600886859 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DAB4CF6171D45F600886859 /* SystemConfiguration.framework */; };
+		5DAB4CF9171D45FB00886859 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DAB4CF8171D45FB00886859 /* AVFoundation.framework */; };
+		5DAB4CFB171D460200886859 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DAB4CFA171D460200886859 /* CFNetwork.framework */; };
+		5DAB4CFD171D460700886859 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DAB4CFC171D460700886859 /* QuartzCore.framework */; };
+		5DAB4CFF171D461400886859 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DAB4CFE171D461400886859 /* libz.dylib */; };
+		5DAB4D01171D461B00886859 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DAB4D00171D461B00886859 /* libsqlite3.dylib */; };
+		5DAB4D03171D462400886859 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DAB4D02171D462400886859 /* libxml2.dylib */; };
+		5DAB4D1B171D469500886859 /* gospel_ios.db in Resources */ = {isa = PBXBuildFile; fileRef = 5DAB4D13171D469500886859 /* gospel_ios.db */; };
+		5DAB4D1C171D469500886859 /* gospel_ios.db in Resources */ = {isa = PBXBuildFile; fileRef = 5DAB4D13171D469500886859 /* gospel_ios.db */; };
+		5DAB4D1D171D469500886859 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5DAB4D15171D469500886859 /* README.md */; };
+		5DAB4D1E171D469500886859 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5DAB4D15171D469500886859 /* README.md */; };
+		5DAB4D1F171D469500886859 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5DAB4D1A171D469500886859 /* README.md */; };
+		5DAB4D20171D469500886859 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5DAB4D1A171D469500886859 /* README.md */; };
+		5DAB4DC3171D46AB00886859 /* Bee_Controller.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D26171D46AB00886859 /* Bee_Controller.mm */; };
+		5DAB4DC4171D46AB00886859 /* Bee_Controller.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D26171D46AB00886859 /* Bee_Controller.mm */; };
+		5DAB4DC5171D46AB00886859 /* Bee_Message.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D28171D46AB00886859 /* Bee_Message.mm */; };
+		5DAB4DC6171D46AB00886859 /* Bee_Message.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D28171D46AB00886859 /* Bee_Message.mm */; };
+		5DAB4DC7171D46AB00886859 /* Bee_MessageQueue.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D2A171D46AB00886859 /* Bee_MessageQueue.mm */; };
+		5DAB4DC8171D46AB00886859 /* Bee_MessageQueue.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D2A171D46AB00886859 /* Bee_MessageQueue.mm */; };
+		5DAB4DC9171D46AB00886859 /* BeeMessage+ActiveRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D2D171D46AB00886859 /* BeeMessage+ActiveRecord.m */; };
+		5DAB4DCA171D46AB00886859 /* BeeMessage+ActiveRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D2D171D46AB00886859 /* BeeMessage+ActiveRecord.m */; };
+		5DAB4DCB171D46AB00886859 /* BeeMessage+HTTP.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D2F171D46AB00886859 /* BeeMessage+HTTP.mm */; };
+		5DAB4DCC171D46AB00886859 /* BeeMessage+HTTP.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D2F171D46AB00886859 /* BeeMessage+HTTP.mm */; };
+		5DAB4DCD171D46AB00886859 /* BeeMessage+JSON.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D31171D46AB00886859 /* BeeMessage+JSON.mm */; };
+		5DAB4DCE171D46AB00886859 /* BeeMessage+JSON.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D31171D46AB00886859 /* BeeMessage+JSON.mm */; };
+		5DAB4DCF171D46AB00886859 /* BeeMessage+XML.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D33171D46AB00886859 /* BeeMessage+XML.mm */; };
+		5DAB4DD0171D46AB00886859 /* BeeMessage+XML.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D33171D46AB00886859 /* BeeMessage+XML.mm */; };
+		5DAB4DD1171D46AB00886859 /* NSObject+BeeMessage.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D35171D46AB00886859 /* NSObject+BeeMessage.mm */; };
+		5DAB4DD2171D46AB00886859 /* NSObject+BeeMessage.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D35171D46AB00886859 /* NSObject+BeeMessage.mm */; };
+		5DAB4DD3171D46AB00886859 /* Bee_Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D38171D46AB00886859 /* Bee_Model.m */; };
+		5DAB4DD4171D46AB00886859 /* Bee_Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D38171D46AB00886859 /* Bee_Model.m */; };
+		5DAB4DD5171D46AB00886859 /* Bee_UIActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D3B171D46AB00886859 /* Bee_UIActionSheet.m */; };
+		5DAB4DD6171D46AB00886859 /* Bee_UIActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D3B171D46AB00886859 /* Bee_UIActionSheet.m */; };
+		5DAB4DD7171D46AB00886859 /* Bee_UIActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D3D171D46AB00886859 /* Bee_UIActivityIndicatorView.m */; };
+		5DAB4DD8171D46AB00886859 /* Bee_UIActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D3D171D46AB00886859 /* Bee_UIActivityIndicatorView.m */; };
+		5DAB4DD9171D46AB00886859 /* Bee_UIAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D3F171D46AB00886859 /* Bee_UIAlertView.m */; };
+		5DAB4DDA171D46AB00886859 /* Bee_UIAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D3F171D46AB00886859 /* Bee_UIAlertView.m */; };
+		5DAB4DDB171D46AB00886859 /* Bee_UIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D41171D46AB00886859 /* Bee_UIButton.m */; };
+		5DAB4DDC171D46AB00886859 /* Bee_UIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D41171D46AB00886859 /* Bee_UIButton.m */; };
+		5DAB4DDD171D46AB00886859 /* Bee_UIDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D43171D46AB00886859 /* Bee_UIDatePicker.m */; };
+		5DAB4DDE171D46AB00886859 /* Bee_UIDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D43171D46AB00886859 /* Bee_UIDatePicker.m */; };
+		5DAB4DDF171D46AB00886859 /* Bee_UIGridCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D45171D46AB00886859 /* Bee_UIGridCell.m */; };
+		5DAB4DE0171D46AB00886859 /* Bee_UIGridCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D45171D46AB00886859 /* Bee_UIGridCell.m */; };
+		5DAB4DE1171D46AB00886859 /* Bee_UIImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D47171D46AB00886859 /* Bee_UIImageView.m */; };
+		5DAB4DE2171D46AB00886859 /* Bee_UIImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D47171D46AB00886859 /* Bee_UIImageView.m */; };
+		5DAB4DE3171D46AB00886859 /* Bee_UIKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D49171D46AB00886859 /* Bee_UIKeyboard.m */; };
+		5DAB4DE4171D46AB00886859 /* Bee_UIKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D49171D46AB00886859 /* Bee_UIKeyboard.m */; };
+		5DAB4DE5171D46AB00886859 /* Bee_UILabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D4B171D46AB00886859 /* Bee_UILabel.m */; };
+		5DAB4DE6171D46AB00886859 /* Bee_UILabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D4B171D46AB00886859 /* Bee_UILabel.m */; };
+		5DAB4DE7171D46AB00886859 /* Bee_UIMatrixView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D4D171D46AB00886859 /* Bee_UIMatrixView.m */; };
+		5DAB4DE8171D46AB00886859 /* Bee_UIMatrixView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D4D171D46AB00886859 /* Bee_UIMatrixView.m */; };
+		5DAB4DE9171D46AB00886859 /* Bee_UINavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D4F171D46AB00886859 /* Bee_UINavigationBar.m */; };
+		5DAB4DEA171D46AB00886859 /* Bee_UINavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D4F171D46AB00886859 /* Bee_UINavigationBar.m */; };
+		5DAB4DEB171D46AB00886859 /* Bee_UIOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D51171D46AB00886859 /* Bee_UIOrientation.m */; };
+		5DAB4DEC171D46AB00886859 /* Bee_UIOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D51171D46AB00886859 /* Bee_UIOrientation.m */; };
+		5DAB4DED171D46AB00886859 /* Bee_UIPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D53171D46AB00886859 /* Bee_UIPageControl.m */; };
+		5DAB4DEE171D46AB00886859 /* Bee_UIPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D53171D46AB00886859 /* Bee_UIPageControl.m */; };
+		5DAB4DEF171D46AB00886859 /* Bee_UIProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D55171D46AB00886859 /* Bee_UIProgressView.m */; };
+		5DAB4DF0171D46AB00886859 /* Bee_UIProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D55171D46AB00886859 /* Bee_UIProgressView.m */; };
+		5DAB4DF1171D46AB00886859 /* Bee_UIPullLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D57171D46AB00886859 /* Bee_UIPullLoader.m */; };
+		5DAB4DF2171D46AB00886859 /* Bee_UIPullLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D57171D46AB00886859 /* Bee_UIPullLoader.m */; };
+		5DAB4DF3171D46AB00886859 /* Bee_UIScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D59171D46AB00886859 /* Bee_UIScrollView.m */; };
+		5DAB4DF4171D46AB00886859 /* Bee_UIScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D59171D46AB00886859 /* Bee_UIScrollView.m */; };
+		5DAB4DF5171D46AB00886859 /* Bee_UISegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D5B171D46AB00886859 /* Bee_UISegmentedControl.m */; };
+		5DAB4DF6171D46AB00886859 /* Bee_UISegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D5B171D46AB00886859 /* Bee_UISegmentedControl.m */; };
+		5DAB4DF7171D46AB00886859 /* Bee_UISignal.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D5D171D46AB00886859 /* Bee_UISignal.m */; };
+		5DAB4DF8171D46AB00886859 /* Bee_UISignal.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D5D171D46AB00886859 /* Bee_UISignal.m */; };
+		5DAB4DF9171D46AB00886859 /* Bee_UITabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D5F171D46AB00886859 /* Bee_UITabBar.m */; };
+		5DAB4DFA171D46AB00886859 /* Bee_UITabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D5F171D46AB00886859 /* Bee_UITabBar.m */; };
+		5DAB4DFB171D46AB00886859 /* Bee_UITextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D61171D46AB00886859 /* Bee_UITextField.m */; };
+		5DAB4DFC171D46AB00886859 /* Bee_UITextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D61171D46AB00886859 /* Bee_UITextField.m */; };
+		5DAB4DFD171D46AB00886859 /* Bee_UITextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D63171D46AB00886859 /* Bee_UITextView.m */; };
+		5DAB4DFE171D46AB00886859 /* Bee_UITextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D63171D46AB00886859 /* Bee_UITextView.m */; };
+		5DAB4DFF171D46AB00886859 /* Bee_UITipsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D65171D46AB00886859 /* Bee_UITipsView.m */; };
+		5DAB4E00171D46AB00886859 /* Bee_UITipsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D65171D46AB00886859 /* Bee_UITipsView.m */; };
+		5DAB4E01171D46AB00886859 /* Bee_UIWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D67171D46AB00886859 /* Bee_UIWebView.m */; };
+		5DAB4E02171D46AB00886859 /* Bee_UIWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D67171D46AB00886859 /* Bee_UIWebView.m */; };
+		5DAB4E03171D46AB00886859 /* Bee_UIZoomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D69171D46AB00886859 /* Bee_UIZoomView.m */; };
+		5DAB4E04171D46AB00886859 /* Bee_UIZoomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D69171D46AB00886859 /* Bee_UIZoomView.m */; };
+		5DAB4E05171D46AB00886859 /* Bee_View.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D6B171D46AB00886859 /* Bee_View.m */; };
+		5DAB4E06171D46AB00886859 /* Bee_View.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D6B171D46AB00886859 /* Bee_View.m */; };
+		5DAB4E07171D46AB00886859 /* CGRect+BeeExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D6E171D46AB00886859 /* CGRect+BeeExtension.m */; };
+		5DAB4E08171D46AB00886859 /* CGRect+BeeExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D6E171D46AB00886859 /* CGRect+BeeExtension.m */; };
+		5DAB4E09171D46AB00886859 /* UIColor+BeeExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D70171D46AB00886859 /* UIColor+BeeExtension.m */; };
+		5DAB4E0A171D46AB00886859 /* UIColor+BeeExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D70171D46AB00886859 /* UIColor+BeeExtension.m */; };
+		5DAB4E0B171D46AB00886859 /* UIFont+BeeExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D72171D46AB00886859 /* UIFont+BeeExtension.m */; };
+		5DAB4E0C171D46AB00886859 /* UIFont+BeeExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D72171D46AB00886859 /* UIFont+BeeExtension.m */; };
+		5DAB4E0D171D46AB00886859 /* UIImage+BeeExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D74171D46AB00886859 /* UIImage+BeeExtension.m */; };
+		5DAB4E0E171D46AB00886859 /* UIImage+BeeExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D74171D46AB00886859 /* UIImage+BeeExtension.m */; };
+		5DAB4E0F171D46AB00886859 /* UIView+BeeExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D76171D46AB00886859 /* UIView+BeeExtension.m */; };
+		5DAB4E10171D46AB00886859 /* UIView+BeeExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D76171D46AB00886859 /* UIView+BeeExtension.m */; };
+		5DAB4E11171D46AB00886859 /* UIView+BeeUISignal.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D78171D46AB00886859 /* UIView+BeeUISignal.m */; };
+		5DAB4E12171D46AB00886859 /* UIView+BeeUISignal.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D78171D46AB00886859 /* UIView+BeeUISignal.m */; };
+		5DAB4E13171D46AB00886859 /* UIView+HoldGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D7A171D46AB00886859 /* UIView+HoldGesture.m */; };
+		5DAB4E14171D46AB00886859 /* UIView+HoldGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D7A171D46AB00886859 /* UIView+HoldGesture.m */; };
+		5DAB4E15171D46AB00886859 /* UIView+PanGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D7C171D46AB00886859 /* UIView+PanGesture.m */; };
+		5DAB4E16171D46AB00886859 /* UIView+PanGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D7C171D46AB00886859 /* UIView+PanGesture.m */; };
+		5DAB4E17171D46AB00886859 /* UIView+SwipeGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D7E171D46AB00886859 /* UIView+SwipeGesture.m */; };
+		5DAB4E18171D46AB00886859 /* UIView+SwipeGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D7E171D46AB00886859 /* UIView+SwipeGesture.m */; };
+		5DAB4E19171D46AB00886859 /* UIView+TapGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D80171D46AB00886859 /* UIView+TapGesture.m */; };
+		5DAB4E1A171D46AB00886859 /* UIView+TapGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D80171D46AB00886859 /* UIView+TapGesture.m */; };
+		5DAB4E1B171D46AB00886859 /* Bee_UIBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D83171D46AB00886859 /* Bee_UIBoard.m */; };
+		5DAB4E1C171D46AB00886859 /* Bee_UIBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D83171D46AB00886859 /* Bee_UIBoard.m */; };
+		5DAB4E1D171D46AB00886859 /* Bee_UIStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D85171D46AB00886859 /* Bee_UIStack.m */; };
+		5DAB4E1E171D46AB00886859 /* Bee_UIStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D85171D46AB00886859 /* Bee_UIStack.m */; };
+		5DAB4E1F171D46AB00886859 /* Bee_UIStackGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D87171D46AB00886859 /* Bee_UIStackGroup.m */; };
+		5DAB4E20171D46AB00886859 /* Bee_UIStackGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D87171D46AB00886859 /* Bee_UIStackGroup.m */; };
+		5DAB4E21171D46AB00886859 /* Bee_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D89171D46AB00886859 /* Bee_ViewController.m */; };
+		5DAB4E22171D46AB00886859 /* Bee_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D89171D46AB00886859 /* Bee_ViewController.m */; };
+		5DAB4E23171D46AB00886859 /* UIViewController+BeeExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D8C171D46AB00886859 /* UIViewController+BeeExtension.m */; };
+		5DAB4E24171D46AB00886859 /* UIViewController+BeeExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D8C171D46AB00886859 /* UIViewController+BeeExtension.m */; };
+		5DAB4E25171D46AB00886859 /* UIViewController+BeeUISignal.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D8E171D46AB00886859 /* UIViewController+BeeUISignal.m */; };
+		5DAB4E26171D46AB00886859 /* UIViewController+BeeUISignal.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D8E171D46AB00886859 /* UIViewController+BeeUISignal.m */; };
+		5DAB4E27171D46AB00886859 /* UIViewController+UINavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D90171D46AB00886859 /* UIViewController+UINavigationBar.m */; };
+		5DAB4E28171D46AB00886859 /* UIViewController+UINavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D90171D46AB00886859 /* UIViewController+UINavigationBar.m */; };
+		5DAB4E29171D46AB00886859 /* Bee_UICollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D93171D46AB00886859 /* Bee_UICollection.m */; };
+		5DAB4E2A171D46AB00886859 /* Bee_UICollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D93171D46AB00886859 /* Bee_UICollection.m */; };
+		5DAB4E2B171D46AB00886859 /* Bee_UILayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D95171D46AB00886859 /* Bee_UILayout.m */; };
+		5DAB4E2C171D46AB00886859 /* Bee_UILayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D95171D46AB00886859 /* Bee_UILayout.m */; };
+		5DAB4E2D171D46AB00886859 /* Bee_UIQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D97171D46AB00886859 /* Bee_UIQuery.m */; };
+		5DAB4E2E171D46AB00886859 /* Bee_UIQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D97171D46AB00886859 /* Bee_UIQuery.m */; };
+		5DAB4E2F171D46AB00886859 /* Bee_UIStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D99171D46AB00886859 /* Bee_UIStyle.m */; };
+		5DAB4E30171D46AB00886859 /* Bee_UIStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D99171D46AB00886859 /* Bee_UIStyle.m */; };
+		5DAB4E31171D46AB00886859 /* Bee_UITemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D9B171D46AB00886859 /* Bee_UITemplate.m */; };
+		5DAB4E32171D46AB00886859 /* Bee_UITemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D9B171D46AB00886859 /* Bee_UITemplate.m */; };
+		5DAB4E33171D46AB00886859 /* Bee_UITemplateAndroid.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D9D171D46AB00886859 /* Bee_UITemplateAndroid.m */; };
+		5DAB4E34171D46AB00886859 /* Bee_UITemplateAndroid.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D9D171D46AB00886859 /* Bee_UITemplateAndroid.m */; };
+		5DAB4E35171D46AB00886859 /* Bee_UITemplateHTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D9F171D46AB00886859 /* Bee_UITemplateHTML.m */; };
+		5DAB4E36171D46AB00886859 /* Bee_UITemplateHTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4D9F171D46AB00886859 /* Bee_UITemplateHTML.m */; };
+		5DAB4E37171D46AB00886859 /* Bee_UITemplateJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4DA1171D46AB00886859 /* Bee_UITemplateJSON.m */; };
+		5DAB4E38171D46AB00886859 /* Bee_UITemplateJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4DA1171D46AB00886859 /* Bee_UITemplateJSON.m */; };
+		5DAB4E39171D46AB00886859 /* Bee_UITemplateOmniGraffle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4DA3171D46AB00886859 /* Bee_UITemplateOmniGraffle.m */; };
+		5DAB4E3A171D46AB00886859 /* Bee_UITemplateOmniGraffle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4DA3171D46AB00886859 /* Bee_UITemplateOmniGraffle.m */; };
+		5DAB4E3B171D46AB00886859 /* Bee_UITemplateXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4DA5171D46AB00886859 /* Bee_UITemplateXML.m */; };
+		5DAB4E3C171D46AB00886859 /* Bee_UITemplateXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4DA5171D46AB00886859 /* Bee_UITemplateXML.m */; };
+		5DAB4E3D171D46AB00886859 /* Bee_ViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4DA7171D46AB00886859 /* Bee_ViewLayout.m */; };
+		5DAB4E3E171D46AB00886859 /* Bee_ViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4DA7171D46AB00886859 /* Bee_ViewLayout.m */; };
+		5DAB4E3F171D46AB00886859 /* BeeUIQuery+BeeUIStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4DAA171D46AB00886859 /* BeeUIQuery+BeeUIStyle.m */; };
+		5DAB4E40171D46AB00886859 /* BeeUIQuery+BeeUIStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4DAA171D46AB00886859 /* BeeUIQuery+BeeUIStyle.m */; };
+		5DAB4E41171D46AB00886859 /* BeeUIStyle+BeeUIQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4DAC171D46AB00886859 /* BeeUIStyle+BeeUIQuery.m */; };
+		5DAB4E42171D46AB00886859 /* BeeUIStyle+BeeUIQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4DAC171D46AB00886859 /* BeeUIStyle+BeeUIQuery.m */; };
+		5DAB4E43171D46AB00886859 /* UIButton+BeeUIStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4DAE171D46AB00886859 /* UIButton+BeeUIStyle.m */; };
+		5DAB4E44171D46AB00886859 /* UIButton+BeeUIStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4DAE171D46AB00886859 /* UIButton+BeeUIStyle.m */; };
+		5DAB4E45171D46AB00886859 /* UIImageView+BeeUIStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4DB0171D46AB00886859 /* UIImageView+BeeUIStyle.m */; };
+		5DAB4E46171D46AB00886859 /* UIImageView+BeeUIStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4DB0171D46AB00886859 /* UIImageView+BeeUIStyle.m */; };
+		5DAB4E47171D46AB00886859 /* UILabel+BeeUIStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4DB2171D46AB00886859 /* UILabel+BeeUIStyle.m */; };
+		5DAB4E48171D46AB00886859 /* UILabel+BeeUIStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4DB2171D46AB00886859 /* UILabel+BeeUIStyle.m */; };
+		5DAB4E49171D46AB00886859 /* UITextField+BeeUIStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4DB4171D46AB00886859 /* UITextField+BeeUIStyle.m */; };
+		5DAB4E4A171D46AB00886859 /* UITextField+BeeUIStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4DB4171D46AB00886859 /* UITextField+BeeUIStyle.m */; };
+		5DAB4E4B171D46AB00886859 /* UITextView+BeeUIStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4DB6171D46AB00886859 /* UITextView+BeeUIStyle.m */; };
+		5DAB4E4C171D46AB00886859 /* UITextView+BeeUIStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4DB6171D46AB00886859 /* UITextView+BeeUIStyle.m */; };
+		5DAB4E4D171D46AB00886859 /* UIView+BeeUILayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4DB8171D46AB00886859 /* UIView+BeeUILayout.m */; };
+		5DAB4E4E171D46AB00886859 /* UIView+BeeUILayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4DB8171D46AB00886859 /* UIView+BeeUILayout.m */; };
+		5DAB4E4F171D46AB00886859 /* UIView+BeeUIQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4DBA171D46AB00886859 /* UIView+BeeUIQuery.m */; };
+		5DAB4E50171D46AB00886859 /* UIView+BeeUIQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4DBA171D46AB00886859 /* UIView+BeeUIQuery.m */; };
+		5DAB4E51171D46AB00886859 /* UIView+BeeUIStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4DBC171D46AB00886859 /* UIView+BeeUIStyle.m */; };
+		5DAB4E52171D46AB00886859 /* UIView+BeeUIStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4DBC171D46AB00886859 /* UIView+BeeUIStyle.m */; };
+		5DAB4E53171D46AB00886859 /* UIViewController+BeeUILayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4DBE171D46AB00886859 /* UIViewController+BeeUILayout.m */; };
+		5DAB4E54171D46AB00886859 /* UIViewController+BeeUILayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4DBE171D46AB00886859 /* UIViewController+BeeUILayout.m */; };
+		5DAB4E55171D46AB00886859 /* UIViewController+BeeUIQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4DC0171D46AB00886859 /* UIViewController+BeeUIQuery.m */; };
+		5DAB4E56171D46AB00886859 /* UIViewController+BeeUIQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4DC0171D46AB00886859 /* UIViewController+BeeUIQuery.m */; };
+		5DAB4E57171D46AB00886859 /* UIViewController+BeeUIStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4DC2171D46AB00886859 /* UIViewController+BeeUIStyle.m */; };
+		5DAB4E58171D46AB00886859 /* UIViewController+BeeUIStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4DC2171D46AB00886859 /* UIViewController+BeeUIStyle.m */; };
+		5DAB4E63171D46B800886859 /* Bee_Network.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4E5B171D46B800886859 /* Bee_Network.m */; };
+		5DAB4E64171D46B800886859 /* Bee_Network.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4E5B171D46B800886859 /* Bee_Network.m */; };
+		5DAB4E65171D46B800886859 /* Bee_Request.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4E5D171D46B800886859 /* Bee_Request.m */; };
+		5DAB4E66171D46B800886859 /* Bee_Request.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4E5D171D46B800886859 /* Bee_Request.m */; };
+		5DAB4E67171D46B800886859 /* Bee_RequestQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4E5F171D46B800886859 /* Bee_RequestQueue.m */; };
+		5DAB4E68171D46B800886859 /* Bee_RequestQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4E5F171D46B800886859 /* Bee_RequestQueue.m */; };
+		5DAB4E69171D46B800886859 /* NSObject+BeeRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4E62171D46B800886859 /* NSObject+BeeRequest.m */; };
+		5DAB4E6A171D46B800886859 /* NSObject+BeeRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4E62171D46B800886859 /* NSObject+BeeRequest.m */; };
+		5DAB4E7E171D46C400886859 /* 0.2.4.zip in Resources */ = {isa = PBXBuildFile; fileRef = 5DAB4E6C171D46C400886859 /* 0.2.4.zip */; };
+		5DAB4E7F171D46C400886859 /* 0.2.4.zip in Resources */ = {isa = PBXBuildFile; fileRef = 5DAB4E6C171D46C400886859 /* 0.2.4.zip */; };
+		5DAB4E80171D46C400886859 /* Bee_ActiveBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4E6E171D46C400886859 /* Bee_ActiveBase.m */; };
+		5DAB4E81171D46C400886859 /* Bee_ActiveBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4E6E171D46C400886859 /* Bee_ActiveBase.m */; };
+		5DAB4E82171D46C400886859 /* Bee_ActiveRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4E70171D46C400886859 /* Bee_ActiveRecord.m */; };
+		5DAB4E83171D46C400886859 /* Bee_ActiveRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4E70171D46C400886859 /* Bee_ActiveRecord.m */; };
+		5DAB4E84171D46C400886859 /* Bee_Cache.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4E72171D46C400886859 /* Bee_Cache.m */; };
+		5DAB4E85171D46C400886859 /* Bee_Cache.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4E72171D46C400886859 /* Bee_Cache.m */; };
+		5DAB4E86171D46C400886859 /* Bee_Database.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4E74171D46C400886859 /* Bee_Database.m */; };
+		5DAB4E87171D46C400886859 /* Bee_Database.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4E74171D46C400886859 /* Bee_Database.m */; };
+		5DAB4E88171D46C400886859 /* Bee_Keychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4E76171D46C400886859 /* Bee_Keychain.m */; };
+		5DAB4E89171D46C400886859 /* Bee_Keychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4E76171D46C400886859 /* Bee_Keychain.m */; };
+		5DAB4E8A171D46C400886859 /* Bee_Storage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4E78171D46C400886859 /* Bee_Storage.m */; };
+		5DAB4E8B171D46C400886859 /* Bee_Storage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4E78171D46C400886859 /* Bee_Storage.m */; };
+		5DAB4E8C171D46C400886859 /* NSObject+BeeDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4E7B171D46C400886859 /* NSObject+BeeDatabase.m */; };
+		5DAB4E8D171D46C400886859 /* NSObject+BeeDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4E7B171D46C400886859 /* NSObject+BeeDatabase.m */; };
+		5DAB4E8E171D46C400886859 /* NSObject+BeeKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4E7D171D46C400886859 /* NSObject+BeeKeychain.m */; };
+		5DAB4E8F171D46C400886859 /* NSObject+BeeKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4E7D171D46C400886859 /* NSObject+BeeKeychain.m */; };
+		5DAB4ED6171D470100886859 /* ASIAuthenticationDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4E93171D470100886859 /* ASIAuthenticationDialog.m */; };
+		5DAB4ED7171D470100886859 /* ASIAuthenticationDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4E93171D470100886859 /* ASIAuthenticationDialog.m */; };
+		5DAB4ED8171D470100886859 /* ASIDataCompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4E96171D470100886859 /* ASIDataCompressor.m */; };
+		5DAB4ED9171D470100886859 /* ASIDataCompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4E96171D470100886859 /* ASIDataCompressor.m */; };
+		5DAB4EDA171D470100886859 /* ASIDataDecompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4E98171D470100886859 /* ASIDataDecompressor.m */; };
+		5DAB4EDB171D470100886859 /* ASIDataDecompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4E98171D470100886859 /* ASIDataDecompressor.m */; };
+		5DAB4EDC171D470100886859 /* ASIDownloadCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4E9A171D470100886859 /* ASIDownloadCache.m */; };
+		5DAB4EDD171D470100886859 /* ASIDownloadCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4E9A171D470100886859 /* ASIDownloadCache.m */; };
+		5DAB4EDE171D470100886859 /* ASIFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4E9C171D470100886859 /* ASIFormDataRequest.m */; };
+		5DAB4EDF171D470100886859 /* ASIFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4E9C171D470100886859 /* ASIFormDataRequest.m */; };
+		5DAB4EE0171D470100886859 /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4E9E171D470100886859 /* ASIHTTPRequest.m */; };
+		5DAB4EE1171D470100886859 /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4E9E171D470100886859 /* ASIHTTPRequest.m */; };
+		5DAB4EE2171D470100886859 /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4EA2171D470100886859 /* ASIInputStream.m */; };
+		5DAB4EE3171D470100886859 /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4EA2171D470100886859 /* ASIInputStream.m */; };
+		5DAB4EE4171D470100886859 /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4EA4171D470100886859 /* ASINetworkQueue.m */; };
+		5DAB4EE5171D470100886859 /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4EA4171D470100886859 /* ASINetworkQueue.m */; };
+		5DAB4EE6171D470100886859 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4EA8171D470100886859 /* FMDatabase.m */; };
+		5DAB4EE7171D470100886859 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4EA8171D470100886859 /* FMDatabase.m */; };
+		5DAB4EE8171D470100886859 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4EAA171D470100886859 /* FMDatabaseAdditions.m */; };
+		5DAB4EE9171D470100886859 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4EAA171D470100886859 /* FMDatabaseAdditions.m */; };
+		5DAB4EEA171D470100886859 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4EAC171D470100886859 /* FMDatabasePool.m */; };
+		5DAB4EEB171D470100886859 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4EAC171D470100886859 /* FMDatabasePool.m */; };
+		5DAB4EEC171D470100886859 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4EAE171D470100886859 /* FMDatabaseQueue.m */; };
+		5DAB4EED171D470100886859 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4EAE171D470100886859 /* FMDatabaseQueue.m */; };
+		5DAB4EEE171D470100886859 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4EB0171D470100886859 /* FMResultSet.m */; };
+		5DAB4EEF171D470100886859 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4EB0171D470100886859 /* FMResultSet.m */; };
+		5DAB4EF0171D470100886859 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4EB3171D470100886859 /* JSONKit.m */; };
+		5DAB4EF1171D470100886859 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4EB3171D470100886859 /* JSONKit.m */; };
+		5DAB4EF2171D470100886859 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4EB6171D470100886859 /* Reachability.m */; };
+		5DAB4EF3171D470100886859 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4EB6171D470100886859 /* Reachability.m */; };
+		5DAB4EF4171D470100886859 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5DAB4EB7171D470100886859 /* README.md */; };
+		5DAB4EF5171D470100886859 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5DAB4EB7171D470100886859 /* README.md */; };
+		5DAB4EF6171D470100886859 /* CXMLDocument_CreationExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4EBB171D470100886859 /* CXMLDocument_CreationExtensions.m */; };
+		5DAB4EF7171D470100886859 /* CXMLDocument_CreationExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4EBB171D470100886859 /* CXMLDocument_CreationExtensions.m */; };
+		5DAB4EF8171D470100886859 /* CXMLNode_CreationExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4EBD171D470100886859 /* CXMLNode_CreationExtensions.m */; };
+		5DAB4EF9171D470100886859 /* CXMLNode_CreationExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4EBD171D470100886859 /* CXMLNode_CreationExtensions.m */; };
+		5DAB4EFA171D470100886859 /* CXHTMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4EBF171D470100886859 /* CXHTMLDocument.m */; };
+		5DAB4EFB171D470100886859 /* CXHTMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4EBF171D470100886859 /* CXHTMLDocument.m */; };
+		5DAB4EFC171D470100886859 /* CXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4EC1171D470100886859 /* CXMLDocument.m */; };
+		5DAB4EFD171D470100886859 /* CXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4EC1171D470100886859 /* CXMLDocument.m */; };
+		5DAB4EFE171D470100886859 /* CXMLDocument_PrivateExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4EC3171D470100886859 /* CXMLDocument_PrivateExtensions.m */; };
+		5DAB4EFF171D470100886859 /* CXMLDocument_PrivateExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4EC3171D470100886859 /* CXMLDocument_PrivateExtensions.m */; };
+		5DAB4F00171D470100886859 /* CXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4EC5171D470100886859 /* CXMLElement.m */; };
+		5DAB4F01171D470100886859 /* CXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4EC5171D470100886859 /* CXMLElement.m */; };
+		5DAB4F02171D470100886859 /* CXMLElement_CreationExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4EC7171D470100886859 /* CXMLElement_CreationExtensions.m */; };
+		5DAB4F03171D470100886859 /* CXMLElement_CreationExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4EC7171D470100886859 /* CXMLElement_CreationExtensions.m */; };
+		5DAB4F04171D470100886859 /* CXMLElement_ElementTreeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4EC9171D470100886859 /* CXMLElement_ElementTreeExtensions.m */; };
+		5DAB4F05171D470100886859 /* CXMLElement_ElementTreeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4EC9171D470100886859 /* CXMLElement_ElementTreeExtensions.m */; };
+		5DAB4F06171D470100886859 /* CXMLNamespaceNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4ECB171D470100886859 /* CXMLNamespaceNode.m */; };
+		5DAB4F07171D470100886859 /* CXMLNamespaceNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4ECB171D470100886859 /* CXMLNamespaceNode.m */; };
+		5DAB4F08171D470100886859 /* CXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4ECD171D470100886859 /* CXMLNode.m */; };
+		5DAB4F09171D470100886859 /* CXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4ECD171D470100886859 /* CXMLNode.m */; };
+		5DAB4F0A171D470100886859 /* CXMLNode_PrivateExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4ECF171D470100886859 /* CXMLNode_PrivateExtensions.m */; };
+		5DAB4F0B171D470100886859 /* CXMLNode_PrivateExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4ECF171D470100886859 /* CXMLNode_PrivateExtensions.m */; };
+		5DAB4F0C171D470100886859 /* CXMLNode_XPathExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4ED1171D470100886859 /* CXMLNode_XPathExtensions.m */; };
+		5DAB4F0D171D470100886859 /* CXMLNode_XPathExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4ED1171D470100886859 /* CXMLNode_XPathExtensions.m */; };
+		5DAB4F0E171D470100886859 /* CTidy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4ED4171D470100886859 /* CTidy.m */; };
+		5DAB4F0F171D470100886859 /* CTidy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4ED4171D470100886859 /* CTidy.m */; };
+		5DAB4F3C171D472300886859 /* Bee_Foundation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4F16171D472300886859 /* Bee_Foundation.mm */; };
+		5DAB4F3D171D472300886859 /* Bee_Foundation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4F16171D472300886859 /* Bee_Foundation.mm */; };
+		5DAB4F3E171D472300886859 /* Bee_Log.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4F18171D472300886859 /* Bee_Log.mm */; };
+		5DAB4F3F171D472300886859 /* Bee_Log.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4F18171D472300886859 /* Bee_Log.mm */; };
+		5DAB4F40171D472300886859 /* Bee_Performance.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4F1A171D472300886859 /* Bee_Performance.mm */; };
+		5DAB4F41171D472300886859 /* Bee_Performance.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4F1A171D472300886859 /* Bee_Performance.mm */; };
+		5DAB4F42171D472300886859 /* Bee_Runtime.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4F1C171D472300886859 /* Bee_Runtime.mm */; };
+		5DAB4F43171D472300886859 /* Bee_Runtime.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4F1C171D472300886859 /* Bee_Runtime.mm */; };
+		5DAB4F44171D472300886859 /* Bee_Sandbox.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4F1E171D472300886859 /* Bee_Sandbox.mm */; };
+		5DAB4F45171D472300886859 /* Bee_Sandbox.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4F1E171D472300886859 /* Bee_Sandbox.mm */; };
+		5DAB4F46171D472300886859 /* Bee_Singleton.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4F20171D472300886859 /* Bee_Singleton.mm */; };
+		5DAB4F47171D472300886859 /* Bee_Singleton.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4F20171D472300886859 /* Bee_Singleton.mm */; };
+		5DAB4F48171D472300886859 /* Bee_SystemInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4F22171D472300886859 /* Bee_SystemInfo.m */; };
+		5DAB4F49171D472300886859 /* Bee_SystemInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4F22171D472300886859 /* Bee_SystemInfo.m */; };
+		5DAB4F4A171D472300886859 /* Bee_Thread.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4F24171D472300886859 /* Bee_Thread.mm */; };
+		5DAB4F4B171D472300886859 /* Bee_Thread.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4F24171D472300886859 /* Bee_Thread.mm */; };
+		5DAB4F4C171D472300886859 /* NSArray+BeeExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4F27171D472300886859 /* NSArray+BeeExtension.m */; };
+		5DAB4F4D171D472300886859 /* NSArray+BeeExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4F27171D472300886859 /* NSArray+BeeExtension.m */; };
+		5DAB4F4E171D472300886859 /* NSData+BeeExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4F29171D472300886859 /* NSData+BeeExtension.m */; };
+		5DAB4F4F171D472300886859 /* NSData+BeeExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4F29171D472300886859 /* NSData+BeeExtension.m */; };
+		5DAB4F50171D472300886859 /* NSDate+BeeExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4F2B171D472300886859 /* NSDate+BeeExtension.m */; };
+		5DAB4F51171D472300886859 /* NSDate+BeeExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4F2B171D472300886859 /* NSDate+BeeExtension.m */; };
+		5DAB4F52171D472300886859 /* NSDictionary+BeeExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4F2D171D472300886859 /* NSDictionary+BeeExtension.m */; };
+		5DAB4F53171D472300886859 /* NSDictionary+BeeExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4F2D171D472300886859 /* NSDictionary+BeeExtension.m */; };
+		5DAB4F54171D472300886859 /* NSNumber+BeeExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4F2F171D472300886859 /* NSNumber+BeeExtension.m */; };
+		5DAB4F55171D472300886859 /* NSNumber+BeeExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4F2F171D472300886859 /* NSNumber+BeeExtension.m */; };
+		5DAB4F56171D472300886859 /* NSObject+BeeJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4F31171D472300886859 /* NSObject+BeeJSON.m */; };
+		5DAB4F57171D472300886859 /* NSObject+BeeJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4F31171D472300886859 /* NSObject+BeeJSON.m */; };
+		5DAB4F58171D472300886859 /* NSObject+BeeNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4F33171D472300886859 /* NSObject+BeeNotification.m */; };
+		5DAB4F59171D472300886859 /* NSObject+BeeNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4F33171D472300886859 /* NSObject+BeeNotification.m */; };
+		5DAB4F5A171D472300886859 /* NSObject+BeeProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4F35171D472300886859 /* NSObject+BeeProperty.m */; };
+		5DAB4F5B171D472300886859 /* NSObject+BeeProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4F35171D472300886859 /* NSObject+BeeProperty.m */; };
+		5DAB4F5C171D472300886859 /* NSObject+BeeTicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4F37171D472300886859 /* NSObject+BeeTicker.m */; };
+		5DAB4F5D171D472300886859 /* NSObject+BeeTicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4F37171D472300886859 /* NSObject+BeeTicker.m */; };
+		5DAB4F5E171D472300886859 /* NSObject+BeeTypeConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4F39171D472300886859 /* NSObject+BeeTypeConversion.m */; };
+		5DAB4F5F171D472300886859 /* NSObject+BeeTypeConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4F39171D472300886859 /* NSObject+BeeTypeConversion.m */; };
+		5DAB4F60171D472300886859 /* NSString+BeeExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4F3B171D472300886859 /* NSString+BeeExtension.m */; };
+		5DAB4F61171D472300886859 /* NSString+BeeExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4F3B171D472300886859 /* NSString+BeeExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +342,299 @@
 		5DAB4CE1171D44D500886859 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5DAB4CE3171D44D500886859 /* Bee_DebuggerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bee_DebuggerTests.h; sourceTree = "<group>"; };
 		5DAB4CE4171D44D500886859 /* Bee_DebuggerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bee_DebuggerTests.m; sourceTree = "<group>"; };
+		5DAB4CEE171D45E200886859 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		5DAB4CF0171D45E900886859 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		5DAB4CF2171D45ED00886859 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		5DAB4CF4171D45F200886859 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		5DAB4CF6171D45F600886859 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		5DAB4CF8171D45FB00886859 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		5DAB4CFA171D460200886859 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		5DAB4CFC171D460700886859 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		5DAB4CFE171D461400886859 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		5DAB4D00171D461B00886859 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		5DAB4D02171D462400886859 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		5DAB4D13171D469500886859 /* gospel_ios.db */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = gospel_ios.db; sourceTree = "<group>"; };
+		5DAB4D15171D469500886859 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		5DAB4D1A171D469500886859 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		5DAB4D23171D46AB00886859 /* Bee_MVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_MVC.h; sourceTree = "<group>"; };
+		5DAB4D25171D46AB00886859 /* Bee_Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_Controller.h; sourceTree = "<group>"; };
+		5DAB4D26171D46AB00886859 /* Bee_Controller.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Bee_Controller.mm; sourceTree = "<group>"; };
+		5DAB4D27171D46AB00886859 /* Bee_Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_Message.h; sourceTree = "<group>"; };
+		5DAB4D28171D46AB00886859 /* Bee_Message.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Bee_Message.mm; sourceTree = "<group>"; };
+		5DAB4D29171D46AB00886859 /* Bee_MessageQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_MessageQueue.h; sourceTree = "<group>"; };
+		5DAB4D2A171D46AB00886859 /* Bee_MessageQueue.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Bee_MessageQueue.mm; sourceTree = "<group>"; };
+		5DAB4D2C171D46AB00886859 /* BeeMessage+ActiveRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BeeMessage+ActiveRecord.h"; sourceTree = "<group>"; };
+		5DAB4D2D171D46AB00886859 /* BeeMessage+ActiveRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BeeMessage+ActiveRecord.m"; sourceTree = "<group>"; };
+		5DAB4D2E171D46AB00886859 /* BeeMessage+HTTP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BeeMessage+HTTP.h"; sourceTree = "<group>"; };
+		5DAB4D2F171D46AB00886859 /* BeeMessage+HTTP.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "BeeMessage+HTTP.mm"; sourceTree = "<group>"; };
+		5DAB4D30171D46AB00886859 /* BeeMessage+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BeeMessage+JSON.h"; sourceTree = "<group>"; };
+		5DAB4D31171D46AB00886859 /* BeeMessage+JSON.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "BeeMessage+JSON.mm"; sourceTree = "<group>"; };
+		5DAB4D32171D46AB00886859 /* BeeMessage+XML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BeeMessage+XML.h"; sourceTree = "<group>"; };
+		5DAB4D33171D46AB00886859 /* BeeMessage+XML.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "BeeMessage+XML.mm"; sourceTree = "<group>"; };
+		5DAB4D34171D46AB00886859 /* NSObject+BeeMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+BeeMessage.h"; sourceTree = "<group>"; };
+		5DAB4D35171D46AB00886859 /* NSObject+BeeMessage.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "NSObject+BeeMessage.mm"; sourceTree = "<group>"; };
+		5DAB4D37171D46AB00886859 /* Bee_Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_Model.h; sourceTree = "<group>"; };
+		5DAB4D38171D46AB00886859 /* Bee_Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_Model.m; sourceTree = "<group>"; };
+		5DAB4D3A171D46AB00886859 /* Bee_UIActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UIActionSheet.h; sourceTree = "<group>"; };
+		5DAB4D3B171D46AB00886859 /* Bee_UIActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UIActionSheet.m; sourceTree = "<group>"; };
+		5DAB4D3C171D46AB00886859 /* Bee_UIActivityIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UIActivityIndicatorView.h; sourceTree = "<group>"; };
+		5DAB4D3D171D46AB00886859 /* Bee_UIActivityIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UIActivityIndicatorView.m; sourceTree = "<group>"; };
+		5DAB4D3E171D46AB00886859 /* Bee_UIAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UIAlertView.h; sourceTree = "<group>"; };
+		5DAB4D3F171D46AB00886859 /* Bee_UIAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UIAlertView.m; sourceTree = "<group>"; };
+		5DAB4D40171D46AB00886859 /* Bee_UIButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UIButton.h; sourceTree = "<group>"; };
+		5DAB4D41171D46AB00886859 /* Bee_UIButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UIButton.m; sourceTree = "<group>"; };
+		5DAB4D42171D46AB00886859 /* Bee_UIDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UIDatePicker.h; sourceTree = "<group>"; };
+		5DAB4D43171D46AB00886859 /* Bee_UIDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UIDatePicker.m; sourceTree = "<group>"; };
+		5DAB4D44171D46AB00886859 /* Bee_UIGridCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UIGridCell.h; sourceTree = "<group>"; };
+		5DAB4D45171D46AB00886859 /* Bee_UIGridCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UIGridCell.m; sourceTree = "<group>"; };
+		5DAB4D46171D46AB00886859 /* Bee_UIImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UIImageView.h; sourceTree = "<group>"; };
+		5DAB4D47171D46AB00886859 /* Bee_UIImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UIImageView.m; sourceTree = "<group>"; };
+		5DAB4D48171D46AB00886859 /* Bee_UIKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UIKeyboard.h; sourceTree = "<group>"; };
+		5DAB4D49171D46AB00886859 /* Bee_UIKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UIKeyboard.m; sourceTree = "<group>"; };
+		5DAB4D4A171D46AB00886859 /* Bee_UILabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UILabel.h; sourceTree = "<group>"; };
+		5DAB4D4B171D46AB00886859 /* Bee_UILabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UILabel.m; sourceTree = "<group>"; };
+		5DAB4D4C171D46AB00886859 /* Bee_UIMatrixView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UIMatrixView.h; sourceTree = "<group>"; };
+		5DAB4D4D171D46AB00886859 /* Bee_UIMatrixView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UIMatrixView.m; sourceTree = "<group>"; };
+		5DAB4D4E171D46AB00886859 /* Bee_UINavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UINavigationBar.h; sourceTree = "<group>"; };
+		5DAB4D4F171D46AB00886859 /* Bee_UINavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UINavigationBar.m; sourceTree = "<group>"; };
+		5DAB4D50171D46AB00886859 /* Bee_UIOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UIOrientation.h; sourceTree = "<group>"; };
+		5DAB4D51171D46AB00886859 /* Bee_UIOrientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UIOrientation.m; sourceTree = "<group>"; };
+		5DAB4D52171D46AB00886859 /* Bee_UIPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UIPageControl.h; sourceTree = "<group>"; };
+		5DAB4D53171D46AB00886859 /* Bee_UIPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UIPageControl.m; sourceTree = "<group>"; };
+		5DAB4D54171D46AB00886859 /* Bee_UIProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UIProgressView.h; sourceTree = "<group>"; };
+		5DAB4D55171D46AB00886859 /* Bee_UIProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UIProgressView.m; sourceTree = "<group>"; };
+		5DAB4D56171D46AB00886859 /* Bee_UIPullLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UIPullLoader.h; sourceTree = "<group>"; };
+		5DAB4D57171D46AB00886859 /* Bee_UIPullLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UIPullLoader.m; sourceTree = "<group>"; };
+		5DAB4D58171D46AB00886859 /* Bee_UIScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UIScrollView.h; sourceTree = "<group>"; };
+		5DAB4D59171D46AB00886859 /* Bee_UIScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UIScrollView.m; sourceTree = "<group>"; };
+		5DAB4D5A171D46AB00886859 /* Bee_UISegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UISegmentedControl.h; sourceTree = "<group>"; };
+		5DAB4D5B171D46AB00886859 /* Bee_UISegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UISegmentedControl.m; sourceTree = "<group>"; };
+		5DAB4D5C171D46AB00886859 /* Bee_UISignal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UISignal.h; sourceTree = "<group>"; };
+		5DAB4D5D171D46AB00886859 /* Bee_UISignal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UISignal.m; sourceTree = "<group>"; };
+		5DAB4D5E171D46AB00886859 /* Bee_UITabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UITabBar.h; sourceTree = "<group>"; };
+		5DAB4D5F171D46AB00886859 /* Bee_UITabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UITabBar.m; sourceTree = "<group>"; };
+		5DAB4D60171D46AB00886859 /* Bee_UITextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UITextField.h; sourceTree = "<group>"; };
+		5DAB4D61171D46AB00886859 /* Bee_UITextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UITextField.m; sourceTree = "<group>"; };
+		5DAB4D62171D46AB00886859 /* Bee_UITextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UITextView.h; sourceTree = "<group>"; };
+		5DAB4D63171D46AB00886859 /* Bee_UITextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UITextView.m; sourceTree = "<group>"; };
+		5DAB4D64171D46AB00886859 /* Bee_UITipsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UITipsView.h; sourceTree = "<group>"; };
+		5DAB4D65171D46AB00886859 /* Bee_UITipsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UITipsView.m; sourceTree = "<group>"; };
+		5DAB4D66171D46AB00886859 /* Bee_UIWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UIWebView.h; sourceTree = "<group>"; };
+		5DAB4D67171D46AB00886859 /* Bee_UIWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UIWebView.m; sourceTree = "<group>"; };
+		5DAB4D68171D46AB00886859 /* Bee_UIZoomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UIZoomView.h; sourceTree = "<group>"; };
+		5DAB4D69171D46AB00886859 /* Bee_UIZoomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UIZoomView.m; sourceTree = "<group>"; };
+		5DAB4D6A171D46AB00886859 /* Bee_View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_View.h; sourceTree = "<group>"; };
+		5DAB4D6B171D46AB00886859 /* Bee_View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_View.m; sourceTree = "<group>"; };
+		5DAB4D6D171D46AB00886859 /* CGRect+BeeExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CGRect+BeeExtension.h"; sourceTree = "<group>"; };
+		5DAB4D6E171D46AB00886859 /* CGRect+BeeExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CGRect+BeeExtension.m"; sourceTree = "<group>"; };
+		5DAB4D6F171D46AB00886859 /* UIColor+BeeExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+BeeExtension.h"; sourceTree = "<group>"; };
+		5DAB4D70171D46AB00886859 /* UIColor+BeeExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+BeeExtension.m"; sourceTree = "<group>"; };
+		5DAB4D71171D46AB00886859 /* UIFont+BeeExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+BeeExtension.h"; sourceTree = "<group>"; };
+		5DAB4D72171D46AB00886859 /* UIFont+BeeExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+BeeExtension.m"; sourceTree = "<group>"; };
+		5DAB4D73171D46AB00886859 /* UIImage+BeeExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+BeeExtension.h"; sourceTree = "<group>"; };
+		5DAB4D74171D46AB00886859 /* UIImage+BeeExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BeeExtension.m"; sourceTree = "<group>"; };
+		5DAB4D75171D46AB00886859 /* UIView+BeeExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BeeExtension.h"; sourceTree = "<group>"; };
+		5DAB4D76171D46AB00886859 /* UIView+BeeExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BeeExtension.m"; sourceTree = "<group>"; };
+		5DAB4D77171D46AB00886859 /* UIView+BeeUISignal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BeeUISignal.h"; sourceTree = "<group>"; };
+		5DAB4D78171D46AB00886859 /* UIView+BeeUISignal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BeeUISignal.m"; sourceTree = "<group>"; };
+		5DAB4D79171D46AB00886859 /* UIView+HoldGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HoldGesture.h"; sourceTree = "<group>"; };
+		5DAB4D7A171D46AB00886859 /* UIView+HoldGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HoldGesture.m"; sourceTree = "<group>"; };
+		5DAB4D7B171D46AB00886859 /* UIView+PanGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+PanGesture.h"; sourceTree = "<group>"; };
+		5DAB4D7C171D46AB00886859 /* UIView+PanGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+PanGesture.m"; sourceTree = "<group>"; };
+		5DAB4D7D171D46AB00886859 /* UIView+SwipeGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SwipeGesture.h"; sourceTree = "<group>"; };
+		5DAB4D7E171D46AB00886859 /* UIView+SwipeGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SwipeGesture.m"; sourceTree = "<group>"; };
+		5DAB4D7F171D46AB00886859 /* UIView+TapGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TapGesture.h"; sourceTree = "<group>"; };
+		5DAB4D80171D46AB00886859 /* UIView+TapGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TapGesture.m"; sourceTree = "<group>"; };
+		5DAB4D82171D46AB00886859 /* Bee_UIBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UIBoard.h; sourceTree = "<group>"; };
+		5DAB4D83171D46AB00886859 /* Bee_UIBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UIBoard.m; sourceTree = "<group>"; };
+		5DAB4D84171D46AB00886859 /* Bee_UIStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UIStack.h; sourceTree = "<group>"; };
+		5DAB4D85171D46AB00886859 /* Bee_UIStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UIStack.m; sourceTree = "<group>"; };
+		5DAB4D86171D46AB00886859 /* Bee_UIStackGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UIStackGroup.h; sourceTree = "<group>"; };
+		5DAB4D87171D46AB00886859 /* Bee_UIStackGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UIStackGroup.m; sourceTree = "<group>"; };
+		5DAB4D88171D46AB00886859 /* Bee_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_ViewController.h; sourceTree = "<group>"; };
+		5DAB4D89171D46AB00886859 /* Bee_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_ViewController.m; sourceTree = "<group>"; };
+		5DAB4D8B171D46AB00886859 /* UIViewController+BeeExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BeeExtension.h"; sourceTree = "<group>"; };
+		5DAB4D8C171D46AB00886859 /* UIViewController+BeeExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BeeExtension.m"; sourceTree = "<group>"; };
+		5DAB4D8D171D46AB00886859 /* UIViewController+BeeUISignal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BeeUISignal.h"; sourceTree = "<group>"; };
+		5DAB4D8E171D46AB00886859 /* UIViewController+BeeUISignal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BeeUISignal.m"; sourceTree = "<group>"; };
+		5DAB4D8F171D46AB00886859 /* UIViewController+UINavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+UINavigationBar.h"; sourceTree = "<group>"; };
+		5DAB4D90171D46AB00886859 /* UIViewController+UINavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+UINavigationBar.m"; sourceTree = "<group>"; };
+		5DAB4D92171D46AB00886859 /* Bee_UICollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UICollection.h; sourceTree = "<group>"; };
+		5DAB4D93171D46AB00886859 /* Bee_UICollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UICollection.m; sourceTree = "<group>"; };
+		5DAB4D94171D46AB00886859 /* Bee_UILayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UILayout.h; sourceTree = "<group>"; };
+		5DAB4D95171D46AB00886859 /* Bee_UILayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UILayout.m; sourceTree = "<group>"; };
+		5DAB4D96171D46AB00886859 /* Bee_UIQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UIQuery.h; sourceTree = "<group>"; };
+		5DAB4D97171D46AB00886859 /* Bee_UIQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UIQuery.m; sourceTree = "<group>"; };
+		5DAB4D98171D46AB00886859 /* Bee_UIStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UIStyle.h; sourceTree = "<group>"; };
+		5DAB4D99171D46AB00886859 /* Bee_UIStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UIStyle.m; sourceTree = "<group>"; };
+		5DAB4D9A171D46AB00886859 /* Bee_UITemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UITemplate.h; sourceTree = "<group>"; };
+		5DAB4D9B171D46AB00886859 /* Bee_UITemplate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UITemplate.m; sourceTree = "<group>"; };
+		5DAB4D9C171D46AB00886859 /* Bee_UITemplateAndroid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UITemplateAndroid.h; sourceTree = "<group>"; };
+		5DAB4D9D171D46AB00886859 /* Bee_UITemplateAndroid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UITemplateAndroid.m; sourceTree = "<group>"; };
+		5DAB4D9E171D46AB00886859 /* Bee_UITemplateHTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UITemplateHTML.h; sourceTree = "<group>"; };
+		5DAB4D9F171D46AB00886859 /* Bee_UITemplateHTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UITemplateHTML.m; sourceTree = "<group>"; };
+		5DAB4DA0171D46AB00886859 /* Bee_UITemplateJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UITemplateJSON.h; sourceTree = "<group>"; };
+		5DAB4DA1171D46AB00886859 /* Bee_UITemplateJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UITemplateJSON.m; sourceTree = "<group>"; };
+		5DAB4DA2171D46AB00886859 /* Bee_UITemplateOmniGraffle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UITemplateOmniGraffle.h; sourceTree = "<group>"; };
+		5DAB4DA3171D46AB00886859 /* Bee_UITemplateOmniGraffle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UITemplateOmniGraffle.m; sourceTree = "<group>"; };
+		5DAB4DA4171D46AB00886859 /* Bee_UITemplateXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_UITemplateXML.h; sourceTree = "<group>"; };
+		5DAB4DA5171D46AB00886859 /* Bee_UITemplateXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_UITemplateXML.m; sourceTree = "<group>"; };
+		5DAB4DA6171D46AB00886859 /* Bee_ViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_ViewLayout.h; sourceTree = "<group>"; };
+		5DAB4DA7171D46AB00886859 /* Bee_ViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_ViewLayout.m; sourceTree = "<group>"; };
+		5DAB4DA9171D46AB00886859 /* BeeUIQuery+BeeUIStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BeeUIQuery+BeeUIStyle.h"; sourceTree = "<group>"; };
+		5DAB4DAA171D46AB00886859 /* BeeUIQuery+BeeUIStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BeeUIQuery+BeeUIStyle.m"; sourceTree = "<group>"; };
+		5DAB4DAB171D46AB00886859 /* BeeUIStyle+BeeUIQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BeeUIStyle+BeeUIQuery.h"; sourceTree = "<group>"; };
+		5DAB4DAC171D46AB00886859 /* BeeUIStyle+BeeUIQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BeeUIStyle+BeeUIQuery.m"; sourceTree = "<group>"; };
+		5DAB4DAD171D46AB00886859 /* UIButton+BeeUIStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+BeeUIStyle.h"; sourceTree = "<group>"; };
+		5DAB4DAE171D46AB00886859 /* UIButton+BeeUIStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+BeeUIStyle.m"; sourceTree = "<group>"; };
+		5DAB4DAF171D46AB00886859 /* UIImageView+BeeUIStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+BeeUIStyle.h"; sourceTree = "<group>"; };
+		5DAB4DB0171D46AB00886859 /* UIImageView+BeeUIStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+BeeUIStyle.m"; sourceTree = "<group>"; };
+		5DAB4DB1171D46AB00886859 /* UILabel+BeeUIStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+BeeUIStyle.h"; sourceTree = "<group>"; };
+		5DAB4DB2171D46AB00886859 /* UILabel+BeeUIStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+BeeUIStyle.m"; sourceTree = "<group>"; };
+		5DAB4DB3171D46AB00886859 /* UITextField+BeeUIStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+BeeUIStyle.h"; sourceTree = "<group>"; };
+		5DAB4DB4171D46AB00886859 /* UITextField+BeeUIStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+BeeUIStyle.m"; sourceTree = "<group>"; };
+		5DAB4DB5171D46AB00886859 /* UITextView+BeeUIStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+BeeUIStyle.h"; sourceTree = "<group>"; };
+		5DAB4DB6171D46AB00886859 /* UITextView+BeeUIStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+BeeUIStyle.m"; sourceTree = "<group>"; };
+		5DAB4DB7171D46AB00886859 /* UIView+BeeUILayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BeeUILayout.h"; sourceTree = "<group>"; };
+		5DAB4DB8171D46AB00886859 /* UIView+BeeUILayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BeeUILayout.m"; sourceTree = "<group>"; };
+		5DAB4DB9171D46AB00886859 /* UIView+BeeUIQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BeeUIQuery.h"; sourceTree = "<group>"; };
+		5DAB4DBA171D46AB00886859 /* UIView+BeeUIQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BeeUIQuery.m"; sourceTree = "<group>"; };
+		5DAB4DBB171D46AB00886859 /* UIView+BeeUIStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BeeUIStyle.h"; sourceTree = "<group>"; };
+		5DAB4DBC171D46AB00886859 /* UIView+BeeUIStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BeeUIStyle.m"; sourceTree = "<group>"; };
+		5DAB4DBD171D46AB00886859 /* UIViewController+BeeUILayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BeeUILayout.h"; sourceTree = "<group>"; };
+		5DAB4DBE171D46AB00886859 /* UIViewController+BeeUILayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BeeUILayout.m"; sourceTree = "<group>"; };
+		5DAB4DBF171D46AB00886859 /* UIViewController+BeeUIQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BeeUIQuery.h"; sourceTree = "<group>"; };
+		5DAB4DC0171D46AB00886859 /* UIViewController+BeeUIQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BeeUIQuery.m"; sourceTree = "<group>"; };
+		5DAB4DC1171D46AB00886859 /* UIViewController+BeeUIStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BeeUIStyle.h"; sourceTree = "<group>"; };
+		5DAB4DC2171D46AB00886859 /* UIViewController+BeeUIStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BeeUIStyle.m"; sourceTree = "<group>"; };
+		5DAB4E5A171D46B800886859 /* Bee_Network.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_Network.h; sourceTree = "<group>"; };
+		5DAB4E5B171D46B800886859 /* Bee_Network.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_Network.m; sourceTree = "<group>"; };
+		5DAB4E5C171D46B800886859 /* Bee_Request.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_Request.h; sourceTree = "<group>"; };
+		5DAB4E5D171D46B800886859 /* Bee_Request.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_Request.m; sourceTree = "<group>"; };
+		5DAB4E5E171D46B800886859 /* Bee_RequestQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_RequestQueue.h; sourceTree = "<group>"; };
+		5DAB4E5F171D46B800886859 /* Bee_RequestQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_RequestQueue.m; sourceTree = "<group>"; };
+		5DAB4E61171D46B800886859 /* NSObject+BeeRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+BeeRequest.h"; sourceTree = "<group>"; };
+		5DAB4E62171D46B800886859 /* NSObject+BeeRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+BeeRequest.m"; sourceTree = "<group>"; };
+		5DAB4E6C171D46C400886859 /* 0.2.4.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = 0.2.4.zip; sourceTree = "<group>"; };
+		5DAB4E6D171D46C400886859 /* Bee_ActiveBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_ActiveBase.h; sourceTree = "<group>"; };
+		5DAB4E6E171D46C400886859 /* Bee_ActiveBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_ActiveBase.m; sourceTree = "<group>"; };
+		5DAB4E6F171D46C400886859 /* Bee_ActiveRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_ActiveRecord.h; sourceTree = "<group>"; };
+		5DAB4E70171D46C400886859 /* Bee_ActiveRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_ActiveRecord.m; sourceTree = "<group>"; };
+		5DAB4E71171D46C400886859 /* Bee_Cache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_Cache.h; sourceTree = "<group>"; };
+		5DAB4E72171D46C400886859 /* Bee_Cache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_Cache.m; sourceTree = "<group>"; };
+		5DAB4E73171D46C400886859 /* Bee_Database.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_Database.h; sourceTree = "<group>"; };
+		5DAB4E74171D46C400886859 /* Bee_Database.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_Database.m; sourceTree = "<group>"; };
+		5DAB4E75171D46C400886859 /* Bee_Keychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_Keychain.h; sourceTree = "<group>"; };
+		5DAB4E76171D46C400886859 /* Bee_Keychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_Keychain.m; sourceTree = "<group>"; };
+		5DAB4E77171D46C400886859 /* Bee_Storage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_Storage.h; sourceTree = "<group>"; };
+		5DAB4E78171D46C400886859 /* Bee_Storage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_Storage.m; sourceTree = "<group>"; };
+		5DAB4E7A171D46C400886859 /* NSObject+BeeDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+BeeDatabase.h"; sourceTree = "<group>"; };
+		5DAB4E7B171D46C400886859 /* NSObject+BeeDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+BeeDatabase.m"; sourceTree = "<group>"; };
+		5DAB4E7C171D46C400886859 /* NSObject+BeeKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+BeeKeychain.h"; sourceTree = "<group>"; };
+		5DAB4E7D171D46C400886859 /* NSObject+BeeKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+BeeKeychain.m"; sourceTree = "<group>"; };
+		5DAB4E92171D470100886859 /* ASIAuthenticationDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIAuthenticationDialog.h; sourceTree = "<group>"; };
+		5DAB4E93171D470100886859 /* ASIAuthenticationDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIAuthenticationDialog.m; sourceTree = "<group>"; };
+		5DAB4E94171D470100886859 /* ASICacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASICacheDelegate.h; sourceTree = "<group>"; };
+		5DAB4E95171D470100886859 /* ASIDataCompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataCompressor.h; sourceTree = "<group>"; };
+		5DAB4E96171D470100886859 /* ASIDataCompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataCompressor.m; sourceTree = "<group>"; };
+		5DAB4E97171D470100886859 /* ASIDataDecompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataDecompressor.h; sourceTree = "<group>"; };
+		5DAB4E98171D470100886859 /* ASIDataDecompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataDecompressor.m; sourceTree = "<group>"; };
+		5DAB4E99171D470100886859 /* ASIDownloadCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDownloadCache.h; sourceTree = "<group>"; };
+		5DAB4E9A171D470100886859 /* ASIDownloadCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDownloadCache.m; sourceTree = "<group>"; };
+		5DAB4E9B171D470100886859 /* ASIFormDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIFormDataRequest.h; sourceTree = "<group>"; };
+		5DAB4E9C171D470100886859 /* ASIFormDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIFormDataRequest.m; sourceTree = "<group>"; };
+		5DAB4E9D171D470100886859 /* ASIHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequest.h; sourceTree = "<group>"; };
+		5DAB4E9E171D470100886859 /* ASIHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIHTTPRequest.m; sourceTree = "<group>"; };
+		5DAB4E9F171D470100886859 /* ASIHTTPRequestConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestConfig.h; sourceTree = "<group>"; };
+		5DAB4EA0171D470100886859 /* ASIHTTPRequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestDelegate.h; sourceTree = "<group>"; };
+		5DAB4EA1171D470100886859 /* ASIInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIInputStream.h; sourceTree = "<group>"; };
+		5DAB4EA2171D470100886859 /* ASIInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIInputStream.m; sourceTree = "<group>"; };
+		5DAB4EA3171D470100886859 /* ASINetworkQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASINetworkQueue.h; sourceTree = "<group>"; };
+		5DAB4EA4171D470100886859 /* ASINetworkQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASINetworkQueue.m; sourceTree = "<group>"; };
+		5DAB4EA5171D470100886859 /* ASIProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIProgressDelegate.h; sourceTree = "<group>"; };
+		5DAB4EA7171D470100886859 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		5DAB4EA8171D470100886859 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		5DAB4EA9171D470100886859 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		5DAB4EAA171D470100886859 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		5DAB4EAB171D470100886859 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		5DAB4EAC171D470100886859 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		5DAB4EAD171D470100886859 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		5DAB4EAE171D470100886859 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		5DAB4EAF171D470100886859 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		5DAB4EB0171D470100886859 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		5DAB4EB2171D470100886859 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		5DAB4EB3171D470100886859 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		5DAB4EB5171D470100886859 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		5DAB4EB6171D470100886859 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		5DAB4EB7171D470100886859 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		5DAB4EBA171D470100886859 /* CXMLDocument_CreationExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLDocument_CreationExtensions.h; sourceTree = "<group>"; };
+		5DAB4EBB171D470100886859 /* CXMLDocument_CreationExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLDocument_CreationExtensions.m; sourceTree = "<group>"; };
+		5DAB4EBC171D470100886859 /* CXMLNode_CreationExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNode_CreationExtensions.h; sourceTree = "<group>"; };
+		5DAB4EBD171D470100886859 /* CXMLNode_CreationExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNode_CreationExtensions.m; sourceTree = "<group>"; };
+		5DAB4EBE171D470100886859 /* CXHTMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXHTMLDocument.h; sourceTree = "<group>"; };
+		5DAB4EBF171D470100886859 /* CXHTMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXHTMLDocument.m; sourceTree = "<group>"; };
+		5DAB4EC0171D470100886859 /* CXMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLDocument.h; sourceTree = "<group>"; };
+		5DAB4EC1171D470100886859 /* CXMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLDocument.m; sourceTree = "<group>"; };
+		5DAB4EC2171D470100886859 /* CXMLDocument_PrivateExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLDocument_PrivateExtensions.h; sourceTree = "<group>"; };
+		5DAB4EC3171D470100886859 /* CXMLDocument_PrivateExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLDocument_PrivateExtensions.m; sourceTree = "<group>"; };
+		5DAB4EC4171D470100886859 /* CXMLElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLElement.h; sourceTree = "<group>"; };
+		5DAB4EC5171D470100886859 /* CXMLElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLElement.m; sourceTree = "<group>"; };
+		5DAB4EC6171D470100886859 /* CXMLElement_CreationExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLElement_CreationExtensions.h; sourceTree = "<group>"; };
+		5DAB4EC7171D470100886859 /* CXMLElement_CreationExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLElement_CreationExtensions.m; sourceTree = "<group>"; };
+		5DAB4EC8171D470100886859 /* CXMLElement_ElementTreeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLElement_ElementTreeExtensions.h; sourceTree = "<group>"; };
+		5DAB4EC9171D470100886859 /* CXMLElement_ElementTreeExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLElement_ElementTreeExtensions.m; sourceTree = "<group>"; };
+		5DAB4ECA171D470100886859 /* CXMLNamespaceNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNamespaceNode.h; sourceTree = "<group>"; };
+		5DAB4ECB171D470100886859 /* CXMLNamespaceNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNamespaceNode.m; sourceTree = "<group>"; };
+		5DAB4ECC171D470100886859 /* CXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNode.h; sourceTree = "<group>"; };
+		5DAB4ECD171D470100886859 /* CXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNode.m; sourceTree = "<group>"; };
+		5DAB4ECE171D470100886859 /* CXMLNode_PrivateExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNode_PrivateExtensions.h; sourceTree = "<group>"; };
+		5DAB4ECF171D470100886859 /* CXMLNode_PrivateExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNode_PrivateExtensions.m; sourceTree = "<group>"; };
+		5DAB4ED0171D470100886859 /* CXMLNode_XPathExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNode_XPathExtensions.h; sourceTree = "<group>"; };
+		5DAB4ED1171D470100886859 /* CXMLNode_XPathExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNode_XPathExtensions.m; sourceTree = "<group>"; };
+		5DAB4ED3171D470100886859 /* CTidy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTidy.h; sourceTree = "<group>"; };
+		5DAB4ED4171D470100886859 /* CTidy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTidy.m; sourceTree = "<group>"; };
+		5DAB4ED5171D470100886859 /* TouchXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchXML.h; sourceTree = "<group>"; };
+		5DAB4F11171D472300886859 /* Bee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee.h; sourceTree = "<group>"; };
+		5DAB4F12171D472300886859 /* Bee_Core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_Core.h; sourceTree = "<group>"; };
+		5DAB4F13171D472300886859 /* Bee_Precompile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_Precompile.h; sourceTree = "<group>"; };
+		5DAB4F15171D472300886859 /* Bee_Foundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_Foundation.h; sourceTree = "<group>"; };
+		5DAB4F16171D472300886859 /* Bee_Foundation.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Bee_Foundation.mm; sourceTree = "<group>"; };
+		5DAB4F17171D472300886859 /* Bee_Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_Log.h; sourceTree = "<group>"; };
+		5DAB4F18171D472300886859 /* Bee_Log.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Bee_Log.mm; sourceTree = "<group>"; };
+		5DAB4F19171D472300886859 /* Bee_Performance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_Performance.h; sourceTree = "<group>"; };
+		5DAB4F1A171D472300886859 /* Bee_Performance.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Bee_Performance.mm; sourceTree = "<group>"; };
+		5DAB4F1B171D472300886859 /* Bee_Runtime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_Runtime.h; sourceTree = "<group>"; };
+		5DAB4F1C171D472300886859 /* Bee_Runtime.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Bee_Runtime.mm; sourceTree = "<group>"; };
+		5DAB4F1D171D472300886859 /* Bee_Sandbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_Sandbox.h; sourceTree = "<group>"; };
+		5DAB4F1E171D472300886859 /* Bee_Sandbox.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Bee_Sandbox.mm; sourceTree = "<group>"; };
+		5DAB4F1F171D472300886859 /* Bee_Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_Singleton.h; sourceTree = "<group>"; };
+		5DAB4F20171D472300886859 /* Bee_Singleton.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Bee_Singleton.mm; sourceTree = "<group>"; };
+		5DAB4F21171D472300886859 /* Bee_SystemInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_SystemInfo.h; sourceTree = "<group>"; };
+		5DAB4F22171D472300886859 /* Bee_SystemInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bee_SystemInfo.m; sourceTree = "<group>"; };
+		5DAB4F23171D472300886859 /* Bee_Thread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bee_Thread.h; sourceTree = "<group>"; };
+		5DAB4F24171D472300886859 /* Bee_Thread.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Bee_Thread.mm; sourceTree = "<group>"; };
+		5DAB4F26171D472300886859 /* NSArray+BeeExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+BeeExtension.h"; sourceTree = "<group>"; };
+		5DAB4F27171D472300886859 /* NSArray+BeeExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+BeeExtension.m"; sourceTree = "<group>"; };
+		5DAB4F28171D472300886859 /* NSData+BeeExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+BeeExtension.h"; sourceTree = "<group>"; };
+		5DAB4F29171D472300886859 /* NSData+BeeExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+BeeExtension.m"; sourceTree = "<group>"; };
+		5DAB4F2A171D472300886859 /* NSDate+BeeExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+BeeExtension.h"; sourceTree = "<group>"; };
+		5DAB4F2B171D472300886859 /* NSDate+BeeExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+BeeExtension.m"; sourceTree = "<group>"; };
+		5DAB4F2C171D472300886859 /* NSDictionary+BeeExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+BeeExtension.h"; sourceTree = "<group>"; };
+		5DAB4F2D171D472300886859 /* NSDictionary+BeeExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+BeeExtension.m"; sourceTree = "<group>"; };
+		5DAB4F2E171D472300886859 /* NSNumber+BeeExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+BeeExtension.h"; sourceTree = "<group>"; };
+		5DAB4F2F171D472300886859 /* NSNumber+BeeExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+BeeExtension.m"; sourceTree = "<group>"; };
+		5DAB4F30171D472300886859 /* NSObject+BeeJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+BeeJSON.h"; sourceTree = "<group>"; };
+		5DAB4F31171D472300886859 /* NSObject+BeeJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+BeeJSON.m"; sourceTree = "<group>"; };
+		5DAB4F32171D472300886859 /* NSObject+BeeNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+BeeNotification.h"; sourceTree = "<group>"; };
+		5DAB4F33171D472300886859 /* NSObject+BeeNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+BeeNotification.m"; sourceTree = "<group>"; };
+		5DAB4F34171D472300886859 /* NSObject+BeeProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+BeeProperty.h"; sourceTree = "<group>"; };
+		5DAB4F35171D472300886859 /* NSObject+BeeProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+BeeProperty.m"; sourceTree = "<group>"; };
+		5DAB4F36171D472300886859 /* NSObject+BeeTicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+BeeTicker.h"; sourceTree = "<group>"; };
+		5DAB4F37171D472300886859 /* NSObject+BeeTicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+BeeTicker.m"; sourceTree = "<group>"; };
+		5DAB4F38171D472300886859 /* NSObject+BeeTypeConversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+BeeTypeConversion.h"; sourceTree = "<group>"; };
+		5DAB4F39171D472300886859 /* NSObject+BeeTypeConversion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+BeeTypeConversion.m"; sourceTree = "<group>"; };
+		5DAB4F3A171D472300886859 /* NSString+BeeExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+BeeExtension.h"; sourceTree = "<group>"; };
+		5DAB4F3B171D472300886859 /* NSString+BeeExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+BeeExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +642,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DAB4D03171D462400886859 /* libxml2.dylib in Frameworks */,
+				5DAB4D01171D461B00886859 /* libsqlite3.dylib in Frameworks */,
+				5DAB4CFF171D461400886859 /* libz.dylib in Frameworks */,
+				5DAB4CFD171D460700886859 /* QuartzCore.framework in Frameworks */,
+				5DAB4CFB171D460200886859 /* CFNetwork.framework in Frameworks */,
+				5DAB4CF9171D45FB00886859 /* AVFoundation.framework in Frameworks */,
+				5DAB4CF7171D45F600886859 /* SystemConfiguration.framework in Frameworks */,
+				5DAB4CF5171D45F200886859 /* MobileCoreServices.framework in Frameworks */,
+				5DAB4CF3171D45ED00886859 /* Security.framework in Frameworks */,
+				5DAB4CF1171D45E900886859 /* CoreMedia.framework in Frameworks */,
+				5DAB4CEF171D45E200886859 /* CoreVideo.framework in Frameworks */,
 				5DAB4CBA171D44D400886859 /* UIKit.framework in Frameworks */,
 				5DAB4CBC171D44D400886859 /* Foundation.framework in Frameworks */,
 				5DAB4CBE171D44D400886859 /* CoreGraphics.framework in Frameworks */,
@@ -82,6 +675,20 @@
 		5DAB4CAD171D44D400886859 = {
 			isa = PBXGroup;
 			children = (
+				5DAB4D21171D469C00886859 /* vendor */,
+				5DAB4D04171D469500886859 /* src */,
+				5DAB4D1A171D469500886859 /* README.md */,
+				5DAB4D02171D462400886859 /* libxml2.dylib */,
+				5DAB4D00171D461B00886859 /* libsqlite3.dylib */,
+				5DAB4CFE171D461400886859 /* libz.dylib */,
+				5DAB4CFC171D460700886859 /* QuartzCore.framework */,
+				5DAB4CFA171D460200886859 /* CFNetwork.framework */,
+				5DAB4CF8171D45FB00886859 /* AVFoundation.framework */,
+				5DAB4CF6171D45F600886859 /* SystemConfiguration.framework */,
+				5DAB4CF4171D45F200886859 /* MobileCoreServices.framework */,
+				5DAB4CF2171D45ED00886859 /* Security.framework */,
+				5DAB4CF0171D45E900886859 /* CoreMedia.framework */,
+				5DAB4CEE171D45E200886859 /* CoreVideo.framework */,
 				5DAB4CBF171D44D400886859 /* Bee_Debugger */,
 				5DAB4CDD171D44D500886859 /* Bee_DebuggerTests */,
 				5DAB4CB8171D44D400886859 /* Frameworks */,
@@ -150,6 +757,658 @@
 				5DAB4CE0171D44D500886859 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5DAB4D04171D469500886859 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				5DAB4D05171D469500886859 /* app */,
+				5DAB4D0E171D469500886859 /* config */,
+				5DAB4D12171D469500886859 /* db */,
+				5DAB4D14171D469500886859 /* doc */,
+				5DAB4D16171D469500886859 /* log */,
+				5DAB4D17171D469500886859 /* script */,
+				5DAB4D18171D469500886859 /* server */,
+				5DAB4D19171D469500886859 /* test */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		5DAB4D05171D469500886859 /* app */ = {
+			isa = PBXGroup;
+			children = (
+				5DAB4D06171D469500886859 /* apis */,
+				5DAB4D07171D469500886859 /* assets */,
+				5DAB4D0A171D469500886859 /* controllers */,
+				5DAB4D0B171D469500886859 /* helpers */,
+				5DAB4D0C171D469500886859 /* models */,
+				5DAB4D0D171D469500886859 /* views */,
+			);
+			path = app;
+			sourceTree = "<group>";
+		};
+		5DAB4D06171D469500886859 /* apis */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = apis;
+			sourceTree = "<group>";
+		};
+		5DAB4D07171D469500886859 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				5DAB4D08171D469500886859 /* images */,
+				5DAB4D09171D469500886859 /* xibs */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		5DAB4D08171D469500886859 /* images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		5DAB4D09171D469500886859 /* xibs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = xibs;
+			sourceTree = "<group>";
+		};
+		5DAB4D0A171D469500886859 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		5DAB4D0B171D469500886859 /* helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = helpers;
+			sourceTree = "<group>";
+		};
+		5DAB4D0C171D469500886859 /* models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		5DAB4D0D171D469500886859 /* views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		5DAB4D0E171D469500886859 /* config */ = {
+			isa = PBXGroup;
+			children = (
+				5DAB4D0F171D469500886859 /* environments */,
+				5DAB4D10171D469500886859 /* initializers */,
+				5DAB4D11171D469500886859 /* locales */,
+			);
+			path = config;
+			sourceTree = "<group>";
+		};
+		5DAB4D0F171D469500886859 /* environments */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = environments;
+			sourceTree = "<group>";
+		};
+		5DAB4D10171D469500886859 /* initializers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = initializers;
+			sourceTree = "<group>";
+		};
+		5DAB4D11171D469500886859 /* locales */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = locales;
+			sourceTree = "<group>";
+		};
+		5DAB4D12171D469500886859 /* db */ = {
+			isa = PBXGroup;
+			children = (
+				5DAB4D13171D469500886859 /* gospel_ios.db */,
+			);
+			path = db;
+			sourceTree = "<group>";
+		};
+		5DAB4D14171D469500886859 /* doc */ = {
+			isa = PBXGroup;
+			children = (
+				5DAB4D15171D469500886859 /* README.md */,
+			);
+			path = doc;
+			sourceTree = "<group>";
+		};
+		5DAB4D16171D469500886859 /* log */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = log;
+			sourceTree = "<group>";
+		};
+		5DAB4D17171D469500886859 /* script */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = script;
+			sourceTree = "<group>";
+		};
+		5DAB4D18171D469500886859 /* server */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = server;
+			sourceTree = "<group>";
+		};
+		5DAB4D19171D469500886859 /* test */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = test;
+			sourceTree = "<group>";
+		};
+		5DAB4D21171D469C00886859 /* vendor */ = {
+			isa = PBXGroup;
+			children = (
+				5DAB4F10171D472300886859 /* Bee_Foundation */,
+				5DAB4E90171D470100886859 /* Bee_Vendor */,
+				5DAB4E6B171D46C400886859 /* Bee_ActiveRecord */,
+				5DAB4E59171D46B800886859 /* Bee_Network */,
+				5DAB4D22171D46AB00886859 /* Bee_MVC */,
+			);
+			name = vendor;
+			sourceTree = "<group>";
+		};
+		5DAB4D22171D46AB00886859 /* Bee_MVC */ = {
+			isa = PBXGroup;
+			children = (
+				5DAB4D23171D46AB00886859 /* Bee_MVC.h */,
+				5DAB4D24171D46AB00886859 /* Controller */,
+				5DAB4D36171D46AB00886859 /* Model */,
+				5DAB4D39171D46AB00886859 /* View */,
+				5DAB4D81171D46AB00886859 /* ViewController */,
+				5DAB4D91171D46AB00886859 /* ViewLayout */,
+			);
+			name = Bee_MVC;
+			path = vendor/Bee_MVC/lib/Bee_MVC;
+			sourceTree = "<group>";
+		};
+		5DAB4D24171D46AB00886859 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5DAB4D25171D46AB00886859 /* Bee_Controller.h */,
+				5DAB4D26171D46AB00886859 /* Bee_Controller.mm */,
+				5DAB4D27171D46AB00886859 /* Bee_Message.h */,
+				5DAB4D28171D46AB00886859 /* Bee_Message.mm */,
+				5DAB4D29171D46AB00886859 /* Bee_MessageQueue.h */,
+				5DAB4D2A171D46AB00886859 /* Bee_MessageQueue.mm */,
+				5DAB4D2B171D46AB00886859 /* Extension */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5DAB4D2B171D46AB00886859 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5DAB4D2C171D46AB00886859 /* BeeMessage+ActiveRecord.h */,
+				5DAB4D2D171D46AB00886859 /* BeeMessage+ActiveRecord.m */,
+				5DAB4D2E171D46AB00886859 /* BeeMessage+HTTP.h */,
+				5DAB4D2F171D46AB00886859 /* BeeMessage+HTTP.mm */,
+				5DAB4D30171D46AB00886859 /* BeeMessage+JSON.h */,
+				5DAB4D31171D46AB00886859 /* BeeMessage+JSON.mm */,
+				5DAB4D32171D46AB00886859 /* BeeMessage+XML.h */,
+				5DAB4D33171D46AB00886859 /* BeeMessage+XML.mm */,
+				5DAB4D34171D46AB00886859 /* NSObject+BeeMessage.h */,
+				5DAB4D35171D46AB00886859 /* NSObject+BeeMessage.mm */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		5DAB4D36171D46AB00886859 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5DAB4D37171D46AB00886859 /* Bee_Model.h */,
+				5DAB4D38171D46AB00886859 /* Bee_Model.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5DAB4D39171D46AB00886859 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5DAB4D3A171D46AB00886859 /* Bee_UIActionSheet.h */,
+				5DAB4D3B171D46AB00886859 /* Bee_UIActionSheet.m */,
+				5DAB4D3C171D46AB00886859 /* Bee_UIActivityIndicatorView.h */,
+				5DAB4D3D171D46AB00886859 /* Bee_UIActivityIndicatorView.m */,
+				5DAB4D3E171D46AB00886859 /* Bee_UIAlertView.h */,
+				5DAB4D3F171D46AB00886859 /* Bee_UIAlertView.m */,
+				5DAB4D40171D46AB00886859 /* Bee_UIButton.h */,
+				5DAB4D41171D46AB00886859 /* Bee_UIButton.m */,
+				5DAB4D42171D46AB00886859 /* Bee_UIDatePicker.h */,
+				5DAB4D43171D46AB00886859 /* Bee_UIDatePicker.m */,
+				5DAB4D44171D46AB00886859 /* Bee_UIGridCell.h */,
+				5DAB4D45171D46AB00886859 /* Bee_UIGridCell.m */,
+				5DAB4D46171D46AB00886859 /* Bee_UIImageView.h */,
+				5DAB4D47171D46AB00886859 /* Bee_UIImageView.m */,
+				5DAB4D48171D46AB00886859 /* Bee_UIKeyboard.h */,
+				5DAB4D49171D46AB00886859 /* Bee_UIKeyboard.m */,
+				5DAB4D4A171D46AB00886859 /* Bee_UILabel.h */,
+				5DAB4D4B171D46AB00886859 /* Bee_UILabel.m */,
+				5DAB4D4C171D46AB00886859 /* Bee_UIMatrixView.h */,
+				5DAB4D4D171D46AB00886859 /* Bee_UIMatrixView.m */,
+				5DAB4D4E171D46AB00886859 /* Bee_UINavigationBar.h */,
+				5DAB4D4F171D46AB00886859 /* Bee_UINavigationBar.m */,
+				5DAB4D50171D46AB00886859 /* Bee_UIOrientation.h */,
+				5DAB4D51171D46AB00886859 /* Bee_UIOrientation.m */,
+				5DAB4D52171D46AB00886859 /* Bee_UIPageControl.h */,
+				5DAB4D53171D46AB00886859 /* Bee_UIPageControl.m */,
+				5DAB4D54171D46AB00886859 /* Bee_UIProgressView.h */,
+				5DAB4D55171D46AB00886859 /* Bee_UIProgressView.m */,
+				5DAB4D56171D46AB00886859 /* Bee_UIPullLoader.h */,
+				5DAB4D57171D46AB00886859 /* Bee_UIPullLoader.m */,
+				5DAB4D58171D46AB00886859 /* Bee_UIScrollView.h */,
+				5DAB4D59171D46AB00886859 /* Bee_UIScrollView.m */,
+				5DAB4D5A171D46AB00886859 /* Bee_UISegmentedControl.h */,
+				5DAB4D5B171D46AB00886859 /* Bee_UISegmentedControl.m */,
+				5DAB4D5C171D46AB00886859 /* Bee_UISignal.h */,
+				5DAB4D5D171D46AB00886859 /* Bee_UISignal.m */,
+				5DAB4D5E171D46AB00886859 /* Bee_UITabBar.h */,
+				5DAB4D5F171D46AB00886859 /* Bee_UITabBar.m */,
+				5DAB4D60171D46AB00886859 /* Bee_UITextField.h */,
+				5DAB4D61171D46AB00886859 /* Bee_UITextField.m */,
+				5DAB4D62171D46AB00886859 /* Bee_UITextView.h */,
+				5DAB4D63171D46AB00886859 /* Bee_UITextView.m */,
+				5DAB4D64171D46AB00886859 /* Bee_UITipsView.h */,
+				5DAB4D65171D46AB00886859 /* Bee_UITipsView.m */,
+				5DAB4D66171D46AB00886859 /* Bee_UIWebView.h */,
+				5DAB4D67171D46AB00886859 /* Bee_UIWebView.m */,
+				5DAB4D68171D46AB00886859 /* Bee_UIZoomView.h */,
+				5DAB4D69171D46AB00886859 /* Bee_UIZoomView.m */,
+				5DAB4D6A171D46AB00886859 /* Bee_View.h */,
+				5DAB4D6B171D46AB00886859 /* Bee_View.m */,
+				5DAB4D6C171D46AB00886859 /* Extension */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5DAB4D6C171D46AB00886859 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5DAB4D6D171D46AB00886859 /* CGRect+BeeExtension.h */,
+				5DAB4D6E171D46AB00886859 /* CGRect+BeeExtension.m */,
+				5DAB4D6F171D46AB00886859 /* UIColor+BeeExtension.h */,
+				5DAB4D70171D46AB00886859 /* UIColor+BeeExtension.m */,
+				5DAB4D71171D46AB00886859 /* UIFont+BeeExtension.h */,
+				5DAB4D72171D46AB00886859 /* UIFont+BeeExtension.m */,
+				5DAB4D73171D46AB00886859 /* UIImage+BeeExtension.h */,
+				5DAB4D74171D46AB00886859 /* UIImage+BeeExtension.m */,
+				5DAB4D75171D46AB00886859 /* UIView+BeeExtension.h */,
+				5DAB4D76171D46AB00886859 /* UIView+BeeExtension.m */,
+				5DAB4D77171D46AB00886859 /* UIView+BeeUISignal.h */,
+				5DAB4D78171D46AB00886859 /* UIView+BeeUISignal.m */,
+				5DAB4D79171D46AB00886859 /* UIView+HoldGesture.h */,
+				5DAB4D7A171D46AB00886859 /* UIView+HoldGesture.m */,
+				5DAB4D7B171D46AB00886859 /* UIView+PanGesture.h */,
+				5DAB4D7C171D46AB00886859 /* UIView+PanGesture.m */,
+				5DAB4D7D171D46AB00886859 /* UIView+SwipeGesture.h */,
+				5DAB4D7E171D46AB00886859 /* UIView+SwipeGesture.m */,
+				5DAB4D7F171D46AB00886859 /* UIView+TapGesture.h */,
+				5DAB4D80171D46AB00886859 /* UIView+TapGesture.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		5DAB4D81171D46AB00886859 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5DAB4D82171D46AB00886859 /* Bee_UIBoard.h */,
+				5DAB4D83171D46AB00886859 /* Bee_UIBoard.m */,
+				5DAB4D84171D46AB00886859 /* Bee_UIStack.h */,
+				5DAB4D85171D46AB00886859 /* Bee_UIStack.m */,
+				5DAB4D86171D46AB00886859 /* Bee_UIStackGroup.h */,
+				5DAB4D87171D46AB00886859 /* Bee_UIStackGroup.m */,
+				5DAB4D88171D46AB00886859 /* Bee_ViewController.h */,
+				5DAB4D89171D46AB00886859 /* Bee_ViewController.m */,
+				5DAB4D8A171D46AB00886859 /* Extension */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		5DAB4D8A171D46AB00886859 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5DAB4D8B171D46AB00886859 /* UIViewController+BeeExtension.h */,
+				5DAB4D8C171D46AB00886859 /* UIViewController+BeeExtension.m */,
+				5DAB4D8D171D46AB00886859 /* UIViewController+BeeUISignal.h */,
+				5DAB4D8E171D46AB00886859 /* UIViewController+BeeUISignal.m */,
+				5DAB4D8F171D46AB00886859 /* UIViewController+UINavigationBar.h */,
+				5DAB4D90171D46AB00886859 /* UIViewController+UINavigationBar.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		5DAB4D91171D46AB00886859 /* ViewLayout */ = {
+			isa = PBXGroup;
+			children = (
+				5DAB4D92171D46AB00886859 /* Bee_UICollection.h */,
+				5DAB4D93171D46AB00886859 /* Bee_UICollection.m */,
+				5DAB4D94171D46AB00886859 /* Bee_UILayout.h */,
+				5DAB4D95171D46AB00886859 /* Bee_UILayout.m */,
+				5DAB4D96171D46AB00886859 /* Bee_UIQuery.h */,
+				5DAB4D97171D46AB00886859 /* Bee_UIQuery.m */,
+				5DAB4D98171D46AB00886859 /* Bee_UIStyle.h */,
+				5DAB4D99171D46AB00886859 /* Bee_UIStyle.m */,
+				5DAB4D9A171D46AB00886859 /* Bee_UITemplate.h */,
+				5DAB4D9B171D46AB00886859 /* Bee_UITemplate.m */,
+				5DAB4D9C171D46AB00886859 /* Bee_UITemplateAndroid.h */,
+				5DAB4D9D171D46AB00886859 /* Bee_UITemplateAndroid.m */,
+				5DAB4D9E171D46AB00886859 /* Bee_UITemplateHTML.h */,
+				5DAB4D9F171D46AB00886859 /* Bee_UITemplateHTML.m */,
+				5DAB4DA0171D46AB00886859 /* Bee_UITemplateJSON.h */,
+				5DAB4DA1171D46AB00886859 /* Bee_UITemplateJSON.m */,
+				5DAB4DA2171D46AB00886859 /* Bee_UITemplateOmniGraffle.h */,
+				5DAB4DA3171D46AB00886859 /* Bee_UITemplateOmniGraffle.m */,
+				5DAB4DA4171D46AB00886859 /* Bee_UITemplateXML.h */,
+				5DAB4DA5171D46AB00886859 /* Bee_UITemplateXML.m */,
+				5DAB4DA6171D46AB00886859 /* Bee_ViewLayout.h */,
+				5DAB4DA7171D46AB00886859 /* Bee_ViewLayout.m */,
+				5DAB4DA8171D46AB00886859 /* Extension */,
+			);
+			path = ViewLayout;
+			sourceTree = "<group>";
+		};
+		5DAB4DA8171D46AB00886859 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5DAB4DA9171D46AB00886859 /* BeeUIQuery+BeeUIStyle.h */,
+				5DAB4DAA171D46AB00886859 /* BeeUIQuery+BeeUIStyle.m */,
+				5DAB4DAB171D46AB00886859 /* BeeUIStyle+BeeUIQuery.h */,
+				5DAB4DAC171D46AB00886859 /* BeeUIStyle+BeeUIQuery.m */,
+				5DAB4DAD171D46AB00886859 /* UIButton+BeeUIStyle.h */,
+				5DAB4DAE171D46AB00886859 /* UIButton+BeeUIStyle.m */,
+				5DAB4DAF171D46AB00886859 /* UIImageView+BeeUIStyle.h */,
+				5DAB4DB0171D46AB00886859 /* UIImageView+BeeUIStyle.m */,
+				5DAB4DB1171D46AB00886859 /* UILabel+BeeUIStyle.h */,
+				5DAB4DB2171D46AB00886859 /* UILabel+BeeUIStyle.m */,
+				5DAB4DB3171D46AB00886859 /* UITextField+BeeUIStyle.h */,
+				5DAB4DB4171D46AB00886859 /* UITextField+BeeUIStyle.m */,
+				5DAB4DB5171D46AB00886859 /* UITextView+BeeUIStyle.h */,
+				5DAB4DB6171D46AB00886859 /* UITextView+BeeUIStyle.m */,
+				5DAB4DB7171D46AB00886859 /* UIView+BeeUILayout.h */,
+				5DAB4DB8171D46AB00886859 /* UIView+BeeUILayout.m */,
+				5DAB4DB9171D46AB00886859 /* UIView+BeeUIQuery.h */,
+				5DAB4DBA171D46AB00886859 /* UIView+BeeUIQuery.m */,
+				5DAB4DBB171D46AB00886859 /* UIView+BeeUIStyle.h */,
+				5DAB4DBC171D46AB00886859 /* UIView+BeeUIStyle.m */,
+				5DAB4DBD171D46AB00886859 /* UIViewController+BeeUILayout.h */,
+				5DAB4DBE171D46AB00886859 /* UIViewController+BeeUILayout.m */,
+				5DAB4DBF171D46AB00886859 /* UIViewController+BeeUIQuery.h */,
+				5DAB4DC0171D46AB00886859 /* UIViewController+BeeUIQuery.m */,
+				5DAB4DC1171D46AB00886859 /* UIViewController+BeeUIStyle.h */,
+				5DAB4DC2171D46AB00886859 /* UIViewController+BeeUIStyle.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		5DAB4E59171D46B800886859 /* Bee_Network */ = {
+			isa = PBXGroup;
+			children = (
+				5DAB4E5A171D46B800886859 /* Bee_Network.h */,
+				5DAB4E5B171D46B800886859 /* Bee_Network.m */,
+				5DAB4E5C171D46B800886859 /* Bee_Request.h */,
+				5DAB4E5D171D46B800886859 /* Bee_Request.m */,
+				5DAB4E5E171D46B800886859 /* Bee_RequestQueue.h */,
+				5DAB4E5F171D46B800886859 /* Bee_RequestQueue.m */,
+				5DAB4E60171D46B800886859 /* Extension */,
+			);
+			name = Bee_Network;
+			path = vendor/Bee_Network/lib/Bee_Network;
+			sourceTree = "<group>";
+		};
+		5DAB4E60171D46B800886859 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5DAB4E61171D46B800886859 /* NSObject+BeeRequest.h */,
+				5DAB4E62171D46B800886859 /* NSObject+BeeRequest.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		5DAB4E6B171D46C400886859 /* Bee_ActiveRecord */ = {
+			isa = PBXGroup;
+			children = (
+				5DAB4E6C171D46C400886859 /* 0.2.4.zip */,
+				5DAB4E6D171D46C400886859 /* Bee_ActiveBase.h */,
+				5DAB4E6E171D46C400886859 /* Bee_ActiveBase.m */,
+				5DAB4E6F171D46C400886859 /* Bee_ActiveRecord.h */,
+				5DAB4E70171D46C400886859 /* Bee_ActiveRecord.m */,
+				5DAB4E71171D46C400886859 /* Bee_Cache.h */,
+				5DAB4E72171D46C400886859 /* Bee_Cache.m */,
+				5DAB4E73171D46C400886859 /* Bee_Database.h */,
+				5DAB4E74171D46C400886859 /* Bee_Database.m */,
+				5DAB4E75171D46C400886859 /* Bee_Keychain.h */,
+				5DAB4E76171D46C400886859 /* Bee_Keychain.m */,
+				5DAB4E77171D46C400886859 /* Bee_Storage.h */,
+				5DAB4E78171D46C400886859 /* Bee_Storage.m */,
+				5DAB4E79171D46C400886859 /* Extension */,
+			);
+			name = Bee_ActiveRecord;
+			path = vendor/Bee_ActiveRecord/lib/Bee_ActiveRecord;
+			sourceTree = "<group>";
+		};
+		5DAB4E79171D46C400886859 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5DAB4E7A171D46C400886859 /* NSObject+BeeDatabase.h */,
+				5DAB4E7B171D46C400886859 /* NSObject+BeeDatabase.m */,
+				5DAB4E7C171D46C400886859 /* NSObject+BeeKeychain.h */,
+				5DAB4E7D171D46C400886859 /* NSObject+BeeKeychain.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		5DAB4E90171D470100886859 /* Bee_Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				5DAB4E91171D470100886859 /* ASI */,
+				5DAB4EA6171D470100886859 /* FMDB */,
+				5DAB4EB1171D470100886859 /* JSONKit */,
+				5DAB4EB4171D470100886859 /* Reachability */,
+				5DAB4EB7171D470100886859 /* README.md */,
+				5DAB4EB8171D470100886859 /* TouchXML */,
+			);
+			name = Bee_Vendor;
+			path = vendor/Bee_Vendor;
+			sourceTree = "<group>";
+		};
+		5DAB4E91171D470100886859 /* ASI */ = {
+			isa = PBXGroup;
+			children = (
+				5DAB4E92171D470100886859 /* ASIAuthenticationDialog.h */,
+				5DAB4E93171D470100886859 /* ASIAuthenticationDialog.m */,
+				5DAB4E94171D470100886859 /* ASICacheDelegate.h */,
+				5DAB4E95171D470100886859 /* ASIDataCompressor.h */,
+				5DAB4E96171D470100886859 /* ASIDataCompressor.m */,
+				5DAB4E97171D470100886859 /* ASIDataDecompressor.h */,
+				5DAB4E98171D470100886859 /* ASIDataDecompressor.m */,
+				5DAB4E99171D470100886859 /* ASIDownloadCache.h */,
+				5DAB4E9A171D470100886859 /* ASIDownloadCache.m */,
+				5DAB4E9B171D470100886859 /* ASIFormDataRequest.h */,
+				5DAB4E9C171D470100886859 /* ASIFormDataRequest.m */,
+				5DAB4E9D171D470100886859 /* ASIHTTPRequest.h */,
+				5DAB4E9E171D470100886859 /* ASIHTTPRequest.m */,
+				5DAB4E9F171D470100886859 /* ASIHTTPRequestConfig.h */,
+				5DAB4EA0171D470100886859 /* ASIHTTPRequestDelegate.h */,
+				5DAB4EA1171D470100886859 /* ASIInputStream.h */,
+				5DAB4EA2171D470100886859 /* ASIInputStream.m */,
+				5DAB4EA3171D470100886859 /* ASINetworkQueue.h */,
+				5DAB4EA4171D470100886859 /* ASINetworkQueue.m */,
+				5DAB4EA5171D470100886859 /* ASIProgressDelegate.h */,
+			);
+			path = ASI;
+			sourceTree = "<group>";
+		};
+		5DAB4EA6171D470100886859 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				5DAB4EA7171D470100886859 /* FMDatabase.h */,
+				5DAB4EA8171D470100886859 /* FMDatabase.m */,
+				5DAB4EA9171D470100886859 /* FMDatabaseAdditions.h */,
+				5DAB4EAA171D470100886859 /* FMDatabaseAdditions.m */,
+				5DAB4EAB171D470100886859 /* FMDatabasePool.h */,
+				5DAB4EAC171D470100886859 /* FMDatabasePool.m */,
+				5DAB4EAD171D470100886859 /* FMDatabaseQueue.h */,
+				5DAB4EAE171D470100886859 /* FMDatabaseQueue.m */,
+				5DAB4EAF171D470100886859 /* FMResultSet.h */,
+				5DAB4EB0171D470100886859 /* FMResultSet.m */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		5DAB4EB1171D470100886859 /* JSONKit */ = {
+			isa = PBXGroup;
+			children = (
+				5DAB4EB2171D470100886859 /* JSONKit.h */,
+				5DAB4EB3171D470100886859 /* JSONKit.m */,
+			);
+			path = JSONKit;
+			sourceTree = "<group>";
+		};
+		5DAB4EB4171D470100886859 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				5DAB4EB5171D470100886859 /* Reachability.h */,
+				5DAB4EB6171D470100886859 /* Reachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		5DAB4EB8171D470100886859 /* TouchXML */ = {
+			isa = PBXGroup;
+			children = (
+				5DAB4EB9171D470100886859 /* Creation */,
+				5DAB4EBE171D470100886859 /* CXHTMLDocument.h */,
+				5DAB4EBF171D470100886859 /* CXHTMLDocument.m */,
+				5DAB4EC0171D470100886859 /* CXMLDocument.h */,
+				5DAB4EC1171D470100886859 /* CXMLDocument.m */,
+				5DAB4EC2171D470100886859 /* CXMLDocument_PrivateExtensions.h */,
+				5DAB4EC3171D470100886859 /* CXMLDocument_PrivateExtensions.m */,
+				5DAB4EC4171D470100886859 /* CXMLElement.h */,
+				5DAB4EC5171D470100886859 /* CXMLElement.m */,
+				5DAB4EC6171D470100886859 /* CXMLElement_CreationExtensions.h */,
+				5DAB4EC7171D470100886859 /* CXMLElement_CreationExtensions.m */,
+				5DAB4EC8171D470100886859 /* CXMLElement_ElementTreeExtensions.h */,
+				5DAB4EC9171D470100886859 /* CXMLElement_ElementTreeExtensions.m */,
+				5DAB4ECA171D470100886859 /* CXMLNamespaceNode.h */,
+				5DAB4ECB171D470100886859 /* CXMLNamespaceNode.m */,
+				5DAB4ECC171D470100886859 /* CXMLNode.h */,
+				5DAB4ECD171D470100886859 /* CXMLNode.m */,
+				5DAB4ECE171D470100886859 /* CXMLNode_PrivateExtensions.h */,
+				5DAB4ECF171D470100886859 /* CXMLNode_PrivateExtensions.m */,
+				5DAB4ED0171D470100886859 /* CXMLNode_XPathExtensions.h */,
+				5DAB4ED1171D470100886859 /* CXMLNode_XPathExtensions.m */,
+				5DAB4ED2171D470100886859 /* Tidy */,
+				5DAB4ED5171D470100886859 /* TouchXML.h */,
+			);
+			path = TouchXML;
+			sourceTree = "<group>";
+		};
+		5DAB4EB9171D470100886859 /* Creation */ = {
+			isa = PBXGroup;
+			children = (
+				5DAB4EBA171D470100886859 /* CXMLDocument_CreationExtensions.h */,
+				5DAB4EBB171D470100886859 /* CXMLDocument_CreationExtensions.m */,
+				5DAB4EBC171D470100886859 /* CXMLNode_CreationExtensions.h */,
+				5DAB4EBD171D470100886859 /* CXMLNode_CreationExtensions.m */,
+			);
+			path = Creation;
+			sourceTree = "<group>";
+		};
+		5DAB4ED2171D470100886859 /* Tidy */ = {
+			isa = PBXGroup;
+			children = (
+				5DAB4ED3171D470100886859 /* CTidy.h */,
+				5DAB4ED4171D470100886859 /* CTidy.m */,
+			);
+			path = Tidy;
+			sourceTree = "<group>";
+		};
+		5DAB4F10171D472300886859 /* Bee_Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				5DAB4F11171D472300886859 /* Bee.h */,
+				5DAB4F12171D472300886859 /* Bee_Core.h */,
+				5DAB4F13171D472300886859 /* Bee_Precompile.h */,
+				5DAB4F14171D472300886859 /* Foundation */,
+			);
+			name = Bee_Foundation;
+			path = vendor/Bee_Foundation/lib/Bee_Foundation;
+			sourceTree = "<group>";
+		};
+		5DAB4F14171D472300886859 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				5DAB4F15171D472300886859 /* Bee_Foundation.h */,
+				5DAB4F16171D472300886859 /* Bee_Foundation.mm */,
+				5DAB4F17171D472300886859 /* Bee_Log.h */,
+				5DAB4F18171D472300886859 /* Bee_Log.mm */,
+				5DAB4F19171D472300886859 /* Bee_Performance.h */,
+				5DAB4F1A171D472300886859 /* Bee_Performance.mm */,
+				5DAB4F1B171D472300886859 /* Bee_Runtime.h */,
+				5DAB4F1C171D472300886859 /* Bee_Runtime.mm */,
+				5DAB4F1D171D472300886859 /* Bee_Sandbox.h */,
+				5DAB4F1E171D472300886859 /* Bee_Sandbox.mm */,
+				5DAB4F1F171D472300886859 /* Bee_Singleton.h */,
+				5DAB4F20171D472300886859 /* Bee_Singleton.mm */,
+				5DAB4F21171D472300886859 /* Bee_SystemInfo.h */,
+				5DAB4F22171D472300886859 /* Bee_SystemInfo.m */,
+				5DAB4F23171D472300886859 /* Bee_Thread.h */,
+				5DAB4F24171D472300886859 /* Bee_Thread.mm */,
+				5DAB4F25171D472300886859 /* Extension */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		5DAB4F25171D472300886859 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5DAB4F26171D472300886859 /* NSArray+BeeExtension.h */,
+				5DAB4F27171D472300886859 /* NSArray+BeeExtension.m */,
+				5DAB4F28171D472300886859 /* NSData+BeeExtension.h */,
+				5DAB4F29171D472300886859 /* NSData+BeeExtension.m */,
+				5DAB4F2A171D472300886859 /* NSDate+BeeExtension.h */,
+				5DAB4F2B171D472300886859 /* NSDate+BeeExtension.m */,
+				5DAB4F2C171D472300886859 /* NSDictionary+BeeExtension.h */,
+				5DAB4F2D171D472300886859 /* NSDictionary+BeeExtension.m */,
+				5DAB4F2E171D472300886859 /* NSNumber+BeeExtension.h */,
+				5DAB4F2F171D472300886859 /* NSNumber+BeeExtension.m */,
+				5DAB4F30171D472300886859 /* NSObject+BeeJSON.h */,
+				5DAB4F31171D472300886859 /* NSObject+BeeJSON.m */,
+				5DAB4F32171D472300886859 /* NSObject+BeeNotification.h */,
+				5DAB4F33171D472300886859 /* NSObject+BeeNotification.m */,
+				5DAB4F34171D472300886859 /* NSObject+BeeProperty.h */,
+				5DAB4F35171D472300886859 /* NSObject+BeeProperty.m */,
+				5DAB4F36171D472300886859 /* NSObject+BeeTicker.h */,
+				5DAB4F37171D472300886859 /* NSObject+BeeTicker.m */,
+				5DAB4F38171D472300886859 /* NSObject+BeeTypeConversion.h */,
+				5DAB4F39171D472300886859 /* NSObject+BeeTypeConversion.m */,
+				5DAB4F3A171D472300886859 /* NSString+BeeExtension.h */,
+				5DAB4F3B171D472300886859 /* NSString+BeeExtension.m */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,6 +1486,11 @@
 				5DAB4CCC171D44D400886859 /* Default.png in Resources */,
 				5DAB4CCE171D44D400886859 /* Default@2x.png in Resources */,
 				5DAB4CD0171D44D400886859 /* Default-568h@2x.png in Resources */,
+				5DAB4D1B171D469500886859 /* gospel_ios.db in Resources */,
+				5DAB4D1D171D469500886859 /* README.md in Resources */,
+				5DAB4D1F171D469500886859 /* README.md in Resources */,
+				5DAB4E7E171D46C400886859 /* 0.2.4.zip in Resources */,
+				5DAB4EF4171D470100886859 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,6 +1499,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DAB4CE2171D44D500886859 /* InfoPlist.strings in Resources */,
+				5DAB4D1C171D469500886859 /* gospel_ios.db in Resources */,
+				5DAB4D1E171D469500886859 /* README.md in Resources */,
+				5DAB4D20171D469500886859 /* README.md in Resources */,
+				5DAB4E7F171D46C400886859 /* 0.2.4.zip in Resources */,
+				5DAB4EF5171D470100886859 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +1532,140 @@
 			files = (
 				5DAB4CC6171D44D400886859 /* main.m in Sources */,
 				5DAB4CCA171D44D400886859 /* AppDelegate.m in Sources */,
+				5DAB4DC3171D46AB00886859 /* Bee_Controller.mm in Sources */,
+				5DAB4DC5171D46AB00886859 /* Bee_Message.mm in Sources */,
+				5DAB4DC7171D46AB00886859 /* Bee_MessageQueue.mm in Sources */,
+				5DAB4DC9171D46AB00886859 /* BeeMessage+ActiveRecord.m in Sources */,
+				5DAB4DCB171D46AB00886859 /* BeeMessage+HTTP.mm in Sources */,
+				5DAB4DCD171D46AB00886859 /* BeeMessage+JSON.mm in Sources */,
+				5DAB4DCF171D46AB00886859 /* BeeMessage+XML.mm in Sources */,
+				5DAB4DD1171D46AB00886859 /* NSObject+BeeMessage.mm in Sources */,
+				5DAB4DD3171D46AB00886859 /* Bee_Model.m in Sources */,
+				5DAB4DD5171D46AB00886859 /* Bee_UIActionSheet.m in Sources */,
+				5DAB4DD7171D46AB00886859 /* Bee_UIActivityIndicatorView.m in Sources */,
+				5DAB4DD9171D46AB00886859 /* Bee_UIAlertView.m in Sources */,
+				5DAB4DDB171D46AB00886859 /* Bee_UIButton.m in Sources */,
+				5DAB4DDD171D46AB00886859 /* Bee_UIDatePicker.m in Sources */,
+				5DAB4DDF171D46AB00886859 /* Bee_UIGridCell.m in Sources */,
+				5DAB4DE1171D46AB00886859 /* Bee_UIImageView.m in Sources */,
+				5DAB4DE3171D46AB00886859 /* Bee_UIKeyboard.m in Sources */,
+				5DAB4DE5171D46AB00886859 /* Bee_UILabel.m in Sources */,
+				5DAB4DE7171D46AB00886859 /* Bee_UIMatrixView.m in Sources */,
+				5DAB4DE9171D46AB00886859 /* Bee_UINavigationBar.m in Sources */,
+				5DAB4DEB171D46AB00886859 /* Bee_UIOrientation.m in Sources */,
+				5DAB4DED171D46AB00886859 /* Bee_UIPageControl.m in Sources */,
+				5DAB4DEF171D46AB00886859 /* Bee_UIProgressView.m in Sources */,
+				5DAB4DF1171D46AB00886859 /* Bee_UIPullLoader.m in Sources */,
+				5DAB4DF3171D46AB00886859 /* Bee_UIScrollView.m in Sources */,
+				5DAB4DF5171D46AB00886859 /* Bee_UISegmentedControl.m in Sources */,
+				5DAB4DF7171D46AB00886859 /* Bee_UISignal.m in Sources */,
+				5DAB4DF9171D46AB00886859 /* Bee_UITabBar.m in Sources */,
+				5DAB4DFB171D46AB00886859 /* Bee_UITextField.m in Sources */,
+				5DAB4DFD171D46AB00886859 /* Bee_UITextView.m in Sources */,
+				5DAB4DFF171D46AB00886859 /* Bee_UITipsView.m in Sources */,
+				5DAB4E01171D46AB00886859 /* Bee_UIWebView.m in Sources */,
+				5DAB4E03171D46AB00886859 /* Bee_UIZoomView.m in Sources */,
+				5DAB4E05171D46AB00886859 /* Bee_View.m in Sources */,
+				5DAB4E07171D46AB00886859 /* CGRect+BeeExtension.m in Sources */,
+				5DAB4E09171D46AB00886859 /* UIColor+BeeExtension.m in Sources */,
+				5DAB4E0B171D46AB00886859 /* UIFont+BeeExtension.m in Sources */,
+				5DAB4E0D171D46AB00886859 /* UIImage+BeeExtension.m in Sources */,
+				5DAB4E0F171D46AB00886859 /* UIView+BeeExtension.m in Sources */,
+				5DAB4E11171D46AB00886859 /* UIView+BeeUISignal.m in Sources */,
+				5DAB4E13171D46AB00886859 /* UIView+HoldGesture.m in Sources */,
+				5DAB4E15171D46AB00886859 /* UIView+PanGesture.m in Sources */,
+				5DAB4E17171D46AB00886859 /* UIView+SwipeGesture.m in Sources */,
+				5DAB4E19171D46AB00886859 /* UIView+TapGesture.m in Sources */,
+				5DAB4E1B171D46AB00886859 /* Bee_UIBoard.m in Sources */,
+				5DAB4E1D171D46AB00886859 /* Bee_UIStack.m in Sources */,
+				5DAB4E1F171D46AB00886859 /* Bee_UIStackGroup.m in Sources */,
+				5DAB4E21171D46AB00886859 /* Bee_ViewController.m in Sources */,
+				5DAB4E23171D46AB00886859 /* UIViewController+BeeExtension.m in Sources */,
+				5DAB4E25171D46AB00886859 /* UIViewController+BeeUISignal.m in Sources */,
+				5DAB4E27171D46AB00886859 /* UIViewController+UINavigationBar.m in Sources */,
+				5DAB4E29171D46AB00886859 /* Bee_UICollection.m in Sources */,
+				5DAB4E2B171D46AB00886859 /* Bee_UILayout.m in Sources */,
+				5DAB4E2D171D46AB00886859 /* Bee_UIQuery.m in Sources */,
+				5DAB4E2F171D46AB00886859 /* Bee_UIStyle.m in Sources */,
+				5DAB4E31171D46AB00886859 /* Bee_UITemplate.m in Sources */,
+				5DAB4E33171D46AB00886859 /* Bee_UITemplateAndroid.m in Sources */,
+				5DAB4E35171D46AB00886859 /* Bee_UITemplateHTML.m in Sources */,
+				5DAB4E37171D46AB00886859 /* Bee_UITemplateJSON.m in Sources */,
+				5DAB4E39171D46AB00886859 /* Bee_UITemplateOmniGraffle.m in Sources */,
+				5DAB4E3B171D46AB00886859 /* Bee_UITemplateXML.m in Sources */,
+				5DAB4E3D171D46AB00886859 /* Bee_ViewLayout.m in Sources */,
+				5DAB4E3F171D46AB00886859 /* BeeUIQuery+BeeUIStyle.m in Sources */,
+				5DAB4E41171D46AB00886859 /* BeeUIStyle+BeeUIQuery.m in Sources */,
+				5DAB4E43171D46AB00886859 /* UIButton+BeeUIStyle.m in Sources */,
+				5DAB4E45171D46AB00886859 /* UIImageView+BeeUIStyle.m in Sources */,
+				5DAB4E47171D46AB00886859 /* UILabel+BeeUIStyle.m in Sources */,
+				5DAB4E49171D46AB00886859 /* UITextField+BeeUIStyle.m in Sources */,
+				5DAB4E4B171D46AB00886859 /* UITextView+BeeUIStyle.m in Sources */,
+				5DAB4E4D171D46AB00886859 /* UIView+BeeUILayout.m in Sources */,
+				5DAB4E4F171D46AB00886859 /* UIView+BeeUIQuery.m in Sources */,
+				5DAB4E51171D46AB00886859 /* UIView+BeeUIStyle.m in Sources */,
+				5DAB4E53171D46AB00886859 /* UIViewController+BeeUILayout.m in Sources */,
+				5DAB4E55171D46AB00886859 /* UIViewController+BeeUIQuery.m in Sources */,
+				5DAB4E57171D46AB00886859 /* UIViewController+BeeUIStyle.m in Sources */,
+				5DAB4E63171D46B800886859 /* Bee_Network.m in Sources */,
+				5DAB4E65171D46B800886859 /* Bee_Request.m in Sources */,
+				5DAB4E67171D46B800886859 /* Bee_RequestQueue.m in Sources */,
+				5DAB4E69171D46B800886859 /* NSObject+BeeRequest.m in Sources */,
+				5DAB4E80171D46C400886859 /* Bee_ActiveBase.m in Sources */,
+				5DAB4E82171D46C400886859 /* Bee_ActiveRecord.m in Sources */,
+				5DAB4E84171D46C400886859 /* Bee_Cache.m in Sources */,
+				5DAB4E86171D46C400886859 /* Bee_Database.m in Sources */,
+				5DAB4E88171D46C400886859 /* Bee_Keychain.m in Sources */,
+				5DAB4E8A171D46C400886859 /* Bee_Storage.m in Sources */,
+				5DAB4E8C171D46C400886859 /* NSObject+BeeDatabase.m in Sources */,
+				5DAB4E8E171D46C400886859 /* NSObject+BeeKeychain.m in Sources */,
+				5DAB4ED6171D470100886859 /* ASIAuthenticationDialog.m in Sources */,
+				5DAB4ED8171D470100886859 /* ASIDataCompressor.m in Sources */,
+				5DAB4EDA171D470100886859 /* ASIDataDecompressor.m in Sources */,
+				5DAB4EDC171D470100886859 /* ASIDownloadCache.m in Sources */,
+				5DAB4EDE171D470100886859 /* ASIFormDataRequest.m in Sources */,
+				5DAB4EE0171D470100886859 /* ASIHTTPRequest.m in Sources */,
+				5DAB4EE2171D470100886859 /* ASIInputStream.m in Sources */,
+				5DAB4EE4171D470100886859 /* ASINetworkQueue.m in Sources */,
+				5DAB4EE6171D470100886859 /* FMDatabase.m in Sources */,
+				5DAB4EE8171D470100886859 /* FMDatabaseAdditions.m in Sources */,
+				5DAB4EEA171D470100886859 /* FMDatabasePool.m in Sources */,
+				5DAB4EEC171D470100886859 /* FMDatabaseQueue.m in Sources */,
+				5DAB4EEE171D470100886859 /* FMResultSet.m in Sources */,
+				5DAB4EF0171D470100886859 /* JSONKit.m in Sources */,
+				5DAB4EF2171D470100886859 /* Reachability.m in Sources */,
+				5DAB4EF6171D470100886859 /* CXMLDocument_CreationExtensions.m in Sources */,
+				5DAB4EF8171D470100886859 /* CXMLNode_CreationExtensions.m in Sources */,
+				5DAB4EFA171D470100886859 /* CXHTMLDocument.m in Sources */,
+				5DAB4EFC171D470100886859 /* CXMLDocument.m in Sources */,
+				5DAB4EFE171D470100886859 /* CXMLDocument_PrivateExtensions.m in Sources */,
+				5DAB4F00171D470100886859 /* CXMLElement.m in Sources */,
+				5DAB4F02171D470100886859 /* CXMLElement_CreationExtensions.m in Sources */,
+				5DAB4F04171D470100886859 /* CXMLElement_ElementTreeExtensions.m in Sources */,
+				5DAB4F06171D470100886859 /* CXMLNamespaceNode.m in Sources */,
+				5DAB4F08171D470100886859 /* CXMLNode.m in Sources */,
+				5DAB4F0A171D470100886859 /* CXMLNode_PrivateExtensions.m in Sources */,
+				5DAB4F0C171D470100886859 /* CXMLNode_XPathExtensions.m in Sources */,
+				5DAB4F0E171D470100886859 /* CTidy.m in Sources */,
+				5DAB4F3C171D472300886859 /* Bee_Foundation.mm in Sources */,
+				5DAB4F3E171D472300886859 /* Bee_Log.mm in Sources */,
+				5DAB4F40171D472300886859 /* Bee_Performance.mm in Sources */,
+				5DAB4F42171D472300886859 /* Bee_Runtime.mm in Sources */,
+				5DAB4F44171D472300886859 /* Bee_Sandbox.mm in Sources */,
+				5DAB4F46171D472300886859 /* Bee_Singleton.mm in Sources */,
+				5DAB4F48171D472300886859 /* Bee_SystemInfo.m in Sources */,
+				5DAB4F4A171D472300886859 /* Bee_Thread.mm in Sources */,
+				5DAB4F4C171D472300886859 /* NSArray+BeeExtension.m in Sources */,
+				5DAB4F4E171D472300886859 /* NSData+BeeExtension.m in Sources */,
+				5DAB4F50171D472300886859 /* NSDate+BeeExtension.m in Sources */,
+				5DAB4F52171D472300886859 /* NSDictionary+BeeExtension.m in Sources */,
+				5DAB4F54171D472300886859 /* NSNumber+BeeExtension.m in Sources */,
+				5DAB4F56171D472300886859 /* NSObject+BeeJSON.m in Sources */,
+				5DAB4F58171D472300886859 /* NSObject+BeeNotification.m in Sources */,
+				5DAB4F5A171D472300886859 /* NSObject+BeeProperty.m in Sources */,
+				5DAB4F5C171D472300886859 /* NSObject+BeeTicker.m in Sources */,
+				5DAB4F5E171D472300886859 /* NSObject+BeeTypeConversion.m in Sources */,
+				5DAB4F60171D472300886859 /* NSString+BeeExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +1674,140 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DAB4CE5171D44D500886859 /* Bee_DebuggerTests.m in Sources */,
+				5DAB4DC4171D46AB00886859 /* Bee_Controller.mm in Sources */,
+				5DAB4DC6171D46AB00886859 /* Bee_Message.mm in Sources */,
+				5DAB4DC8171D46AB00886859 /* Bee_MessageQueue.mm in Sources */,
+				5DAB4DCA171D46AB00886859 /* BeeMessage+ActiveRecord.m in Sources */,
+				5DAB4DCC171D46AB00886859 /* BeeMessage+HTTP.mm in Sources */,
+				5DAB4DCE171D46AB00886859 /* BeeMessage+JSON.mm in Sources */,
+				5DAB4DD0171D46AB00886859 /* BeeMessage+XML.mm in Sources */,
+				5DAB4DD2171D46AB00886859 /* NSObject+BeeMessage.mm in Sources */,
+				5DAB4DD4171D46AB00886859 /* Bee_Model.m in Sources */,
+				5DAB4DD6171D46AB00886859 /* Bee_UIActionSheet.m in Sources */,
+				5DAB4DD8171D46AB00886859 /* Bee_UIActivityIndicatorView.m in Sources */,
+				5DAB4DDA171D46AB00886859 /* Bee_UIAlertView.m in Sources */,
+				5DAB4DDC171D46AB00886859 /* Bee_UIButton.m in Sources */,
+				5DAB4DDE171D46AB00886859 /* Bee_UIDatePicker.m in Sources */,
+				5DAB4DE0171D46AB00886859 /* Bee_UIGridCell.m in Sources */,
+				5DAB4DE2171D46AB00886859 /* Bee_UIImageView.m in Sources */,
+				5DAB4DE4171D46AB00886859 /* Bee_UIKeyboard.m in Sources */,
+				5DAB4DE6171D46AB00886859 /* Bee_UILabel.m in Sources */,
+				5DAB4DE8171D46AB00886859 /* Bee_UIMatrixView.m in Sources */,
+				5DAB4DEA171D46AB00886859 /* Bee_UINavigationBar.m in Sources */,
+				5DAB4DEC171D46AB00886859 /* Bee_UIOrientation.m in Sources */,
+				5DAB4DEE171D46AB00886859 /* Bee_UIPageControl.m in Sources */,
+				5DAB4DF0171D46AB00886859 /* Bee_UIProgressView.m in Sources */,
+				5DAB4DF2171D46AB00886859 /* Bee_UIPullLoader.m in Sources */,
+				5DAB4DF4171D46AB00886859 /* Bee_UIScrollView.m in Sources */,
+				5DAB4DF6171D46AB00886859 /* Bee_UISegmentedControl.m in Sources */,
+				5DAB4DF8171D46AB00886859 /* Bee_UISignal.m in Sources */,
+				5DAB4DFA171D46AB00886859 /* Bee_UITabBar.m in Sources */,
+				5DAB4DFC171D46AB00886859 /* Bee_UITextField.m in Sources */,
+				5DAB4DFE171D46AB00886859 /* Bee_UITextView.m in Sources */,
+				5DAB4E00171D46AB00886859 /* Bee_UITipsView.m in Sources */,
+				5DAB4E02171D46AB00886859 /* Bee_UIWebView.m in Sources */,
+				5DAB4E04171D46AB00886859 /* Bee_UIZoomView.m in Sources */,
+				5DAB4E06171D46AB00886859 /* Bee_View.m in Sources */,
+				5DAB4E08171D46AB00886859 /* CGRect+BeeExtension.m in Sources */,
+				5DAB4E0A171D46AB00886859 /* UIColor+BeeExtension.m in Sources */,
+				5DAB4E0C171D46AB00886859 /* UIFont+BeeExtension.m in Sources */,
+				5DAB4E0E171D46AB00886859 /* UIImage+BeeExtension.m in Sources */,
+				5DAB4E10171D46AB00886859 /* UIView+BeeExtension.m in Sources */,
+				5DAB4E12171D46AB00886859 /* UIView+BeeUISignal.m in Sources */,
+				5DAB4E14171D46AB00886859 /* UIView+HoldGesture.m in Sources */,
+				5DAB4E16171D46AB00886859 /* UIView+PanGesture.m in Sources */,
+				5DAB4E18171D46AB00886859 /* UIView+SwipeGesture.m in Sources */,
+				5DAB4E1A171D46AB00886859 /* UIView+TapGesture.m in Sources */,
+				5DAB4E1C171D46AB00886859 /* Bee_UIBoard.m in Sources */,
+				5DAB4E1E171D46AB00886859 /* Bee_UIStack.m in Sources */,
+				5DAB4E20171D46AB00886859 /* Bee_UIStackGroup.m in Sources */,
+				5DAB4E22171D46AB00886859 /* Bee_ViewController.m in Sources */,
+				5DAB4E24171D46AB00886859 /* UIViewController+BeeExtension.m in Sources */,
+				5DAB4E26171D46AB00886859 /* UIViewController+BeeUISignal.m in Sources */,
+				5DAB4E28171D46AB00886859 /* UIViewController+UINavigationBar.m in Sources */,
+				5DAB4E2A171D46AB00886859 /* Bee_UICollection.m in Sources */,
+				5DAB4E2C171D46AB00886859 /* Bee_UILayout.m in Sources */,
+				5DAB4E2E171D46AB00886859 /* Bee_UIQuery.m in Sources */,
+				5DAB4E30171D46AB00886859 /* Bee_UIStyle.m in Sources */,
+				5DAB4E32171D46AB00886859 /* Bee_UITemplate.m in Sources */,
+				5DAB4E34171D46AB00886859 /* Bee_UITemplateAndroid.m in Sources */,
+				5DAB4E36171D46AB00886859 /* Bee_UITemplateHTML.m in Sources */,
+				5DAB4E38171D46AB00886859 /* Bee_UITemplateJSON.m in Sources */,
+				5DAB4E3A171D46AB00886859 /* Bee_UITemplateOmniGraffle.m in Sources */,
+				5DAB4E3C171D46AB00886859 /* Bee_UITemplateXML.m in Sources */,
+				5DAB4E3E171D46AB00886859 /* Bee_ViewLayout.m in Sources */,
+				5DAB4E40171D46AB00886859 /* BeeUIQuery+BeeUIStyle.m in Sources */,
+				5DAB4E42171D46AB00886859 /* BeeUIStyle+BeeUIQuery.m in Sources */,
+				5DAB4E44171D46AB00886859 /* UIButton+BeeUIStyle.m in Sources */,
+				5DAB4E46171D46AB00886859 /* UIImageView+BeeUIStyle.m in Sources */,
+				5DAB4E48171D46AB00886859 /* UILabel+BeeUIStyle.m in Sources */,
+				5DAB4E4A171D46AB00886859 /* UITextField+BeeUIStyle.m in Sources */,
+				5DAB4E4C171D46AB00886859 /* UITextView+BeeUIStyle.m in Sources */,
+				5DAB4E4E171D46AB00886859 /* UIView+BeeUILayout.m in Sources */,
+				5DAB4E50171D46AB00886859 /* UIView+BeeUIQuery.m in Sources */,
+				5DAB4E52171D46AB00886859 /* UIView+BeeUIStyle.m in Sources */,
+				5DAB4E54171D46AB00886859 /* UIViewController+BeeUILayout.m in Sources */,
+				5DAB4E56171D46AB00886859 /* UIViewController+BeeUIQuery.m in Sources */,
+				5DAB4E58171D46AB00886859 /* UIViewController+BeeUIStyle.m in Sources */,
+				5DAB4E64171D46B800886859 /* Bee_Network.m in Sources */,
+				5DAB4E66171D46B800886859 /* Bee_Request.m in Sources */,
+				5DAB4E68171D46B800886859 /* Bee_RequestQueue.m in Sources */,
+				5DAB4E6A171D46B800886859 /* NSObject+BeeRequest.m in Sources */,
+				5DAB4E81171D46C400886859 /* Bee_ActiveBase.m in Sources */,
+				5DAB4E83171D46C400886859 /* Bee_ActiveRecord.m in Sources */,
+				5DAB4E85171D46C400886859 /* Bee_Cache.m in Sources */,
+				5DAB4E87171D46C400886859 /* Bee_Database.m in Sources */,
+				5DAB4E89171D46C400886859 /* Bee_Keychain.m in Sources */,
+				5DAB4E8B171D46C400886859 /* Bee_Storage.m in Sources */,
+				5DAB4E8D171D46C400886859 /* NSObject+BeeDatabase.m in Sources */,
+				5DAB4E8F171D46C400886859 /* NSObject+BeeKeychain.m in Sources */,
+				5DAB4ED7171D470100886859 /* ASIAuthenticationDialog.m in Sources */,
+				5DAB4ED9171D470100886859 /* ASIDataCompressor.m in Sources */,
+				5DAB4EDB171D470100886859 /* ASIDataDecompressor.m in Sources */,
+				5DAB4EDD171D470100886859 /* ASIDownloadCache.m in Sources */,
+				5DAB4EDF171D470100886859 /* ASIFormDataRequest.m in Sources */,
+				5DAB4EE1171D470100886859 /* ASIHTTPRequest.m in Sources */,
+				5DAB4EE3171D470100886859 /* ASIInputStream.m in Sources */,
+				5DAB4EE5171D470100886859 /* ASINetworkQueue.m in Sources */,
+				5DAB4EE7171D470100886859 /* FMDatabase.m in Sources */,
+				5DAB4EE9171D470100886859 /* FMDatabaseAdditions.m in Sources */,
+				5DAB4EEB171D470100886859 /* FMDatabasePool.m in Sources */,
+				5DAB4EED171D470100886859 /* FMDatabaseQueue.m in Sources */,
+				5DAB4EEF171D470100886859 /* FMResultSet.m in Sources */,
+				5DAB4EF1171D470100886859 /* JSONKit.m in Sources */,
+				5DAB4EF3171D470100886859 /* Reachability.m in Sources */,
+				5DAB4EF7171D470100886859 /* CXMLDocument_CreationExtensions.m in Sources */,
+				5DAB4EF9171D470100886859 /* CXMLNode_CreationExtensions.m in Sources */,
+				5DAB4EFB171D470100886859 /* CXHTMLDocument.m in Sources */,
+				5DAB4EFD171D470100886859 /* CXMLDocument.m in Sources */,
+				5DAB4EFF171D470100886859 /* CXMLDocument_PrivateExtensions.m in Sources */,
+				5DAB4F01171D470100886859 /* CXMLElement.m in Sources */,
+				5DAB4F03171D470100886859 /* CXMLElement_CreationExtensions.m in Sources */,
+				5DAB4F05171D470100886859 /* CXMLElement_ElementTreeExtensions.m in Sources */,
+				5DAB4F07171D470100886859 /* CXMLNamespaceNode.m in Sources */,
+				5DAB4F09171D470100886859 /* CXMLNode.m in Sources */,
+				5DAB4F0B171D470100886859 /* CXMLNode_PrivateExtensions.m in Sources */,
+				5DAB4F0D171D470100886859 /* CXMLNode_XPathExtensions.m in Sources */,
+				5DAB4F0F171D470100886859 /* CTidy.m in Sources */,
+				5DAB4F3D171D472300886859 /* Bee_Foundation.mm in Sources */,
+				5DAB4F3F171D472300886859 /* Bee_Log.mm in Sources */,
+				5DAB4F41171D472300886859 /* Bee_Performance.mm in Sources */,
+				5DAB4F43171D472300886859 /* Bee_Runtime.mm in Sources */,
+				5DAB4F45171D472300886859 /* Bee_Sandbox.mm in Sources */,
+				5DAB4F47171D472300886859 /* Bee_Singleton.mm in Sources */,
+				5DAB4F49171D472300886859 /* Bee_SystemInfo.m in Sources */,
+				5DAB4F4B171D472300886859 /* Bee_Thread.mm in Sources */,
+				5DAB4F4D171D472300886859 /* NSArray+BeeExtension.m in Sources */,
+				5DAB4F4F171D472300886859 /* NSData+BeeExtension.m in Sources */,
+				5DAB4F51171D472300886859 /* NSDate+BeeExtension.m in Sources */,
+				5DAB4F53171D472300886859 /* NSDictionary+BeeExtension.m in Sources */,
+				5DAB4F55171D472300886859 /* NSNumber+BeeExtension.m in Sources */,
+				5DAB4F57171D472300886859 /* NSObject+BeeJSON.m in Sources */,
+				5DAB4F59171D472300886859 /* NSObject+BeeNotification.m in Sources */,
+				5DAB4F5B171D472300886859 /* NSObject+BeeProperty.m in Sources */,
+				5DAB4F5D171D472300886859 /* NSObject+BeeTicker.m in Sources */,
+				5DAB4F5F171D472300886859 /* NSObject+BeeTypeConversion.m in Sources */,
+				5DAB4F61171D472300886859 /* NSString+BeeExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,9 +1900,13 @@
 		5DAB4CE9171D44D500886859 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = /usr/lib/libxml2.dylib;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Bee_Debugger/Bee_Debugger-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
 				INFOPLIST_FILE = "Bee_Debugger/Bee_Debugger-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "-lxml2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -374,9 +1915,13 @@
 		5DAB4CEA171D44D500886859 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = /usr/lib/libxml2.dylib;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Bee_Debugger/Bee_Debugger-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
 				INFOPLIST_FILE = "Bee_Debugger/Bee_Debugger-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "-lxml2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
